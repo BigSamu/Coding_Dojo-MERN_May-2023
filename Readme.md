@@ -73,6 +73,7 @@ Below in details all technologies that will be reviewd during this stack
   [![ExpressJS][express-js-badge]][express-js-url]
 
 - **Package Managers**:
+  
   [![NPM][npm-badge]][npm-url]
 
 - **Databases**:
