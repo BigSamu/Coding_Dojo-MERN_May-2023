@@ -73,7 +73,7 @@ Below in details all technologies that will be reviewd during this stack
   [![ExpressJS][express-js-badge]][express-js-url]
 
 - **Package Managers**:
-  
+
   [![NPM][npm-badge]][npm-url]
 
 - **Databases**:
@@ -170,26 +170,15 @@ During the course, useful resources will be listed below for guiding students in
 - **Blogs and Websites**
   - [Medium](https://medium.com/) (Recommended 🚀 - USD 5,00 per month)
   - [Dev.to](https://dev.to/)
-  - [W3Schools](https://www.w3schools.com/)
   - [CSS Tricks](https://css-tricks.com/)
 
 - **Git and Terminal**
   - [Git Tutorial](https://medium.com/swlh/an-introduction-to-git-and-github-22ecb4cb1256)
   - [Terminal for Beginners](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a)
 
-- **HTML**
-  - [HTML Validator](https://validator.w3.org/)
-
-- **CSS**
-  - [Display:Inline vs Inline-Block vs Block](https://www.samanthaming.com/pictorials/css-inline-vs-inlineblock-vs-block/)
-  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-tricks)
-  - [Flex Froggy: Learn to use CSS Flex](https://flexboxfroggy.com/)
+- **UI/UX**
   - [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
   - [Bootstrap 5.2.3](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-
-- **JS**
-  - [Javascript Playground](https://playcode.io/empty_javascript)
-  - [JQuery](https://jquery.com/)
 
 - **ChatGPT**
   - [ChatGPT](https://openai.com/blog/chatgpt)
