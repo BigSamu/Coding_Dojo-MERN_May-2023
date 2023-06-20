@@ -140,6 +140,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
 
 
 - **Tutorials (Jorge)**
+  - [Tutorial 1: Node, NPM (y NVM)](https://us06web.zoom.us/rec/share/cU5SpiiqN5vzADJI9b3HC2Y7b1UqiLezcjym2sq8yurxI74j_T_GKGJSruRdRxXx.2dJ_y1Rrt2i6Noln?pwd=lLrNMIlOlGsAvD5DTmm3z60trL0TXPx5) 
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
