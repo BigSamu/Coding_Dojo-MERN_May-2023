@@ -1,7 +1,5 @@
-// Rest/Spread ('...' operator)
-
 // -----------------------------------------------------------------------------
-// I) Example 1 -> Expansion
+// REST/SPREAD OPERATOR (...)
 // -----------------------------------------------------------------------------
 
 const person = {
@@ -21,21 +19,37 @@ const address = {
   zip: "15222",
 }
 
+// I) Example 1 -> Expansion (Spread Operator)
 const personWithAddress = {...person, ...address};
 console.log(personWithAddress);
+
+const personWithAddressPlusCountry = {...person, ...address, country: "USA"};
+console.log(personWithAddressPlusCountry);
 
 const personWithAddressNested = {...person, address: address};
 console.log(personWithAddressNested);
 
+const personWithAddressNestedPlusCountry = {...person, address: {...address, country: "USA"}};
+console.log(personWithAddressNestedPlusCountry);
+
 const newAnimals = [...animals, "lion", "tiger", "bear"];
 console.log(newAnimals);
 
-// -----------------------------------------------------------------------------
-// II) Exmaple 2 -> Gathering
-// -----------------------------------------------------------------------------
+const newAnimals2 = ["lion", "tiger", "bear", ...animals];
+console.log(newAnimals2);
+
+const newAnimals3 = ["lion", ...animals, "tiger", "bear"];
+console.log(newAnimals3);
+
+const personWithHobbies = {...person, hobbies: ["golf", "hiking", "swimming"]};
+console.log(personWithHobbies);
+
+const personWithHobbies2 = {...person, hobbies: [...personWithHobbies.hobbies, "golf", "hiking", "swimming"]};
 
 console.log("----------------------");
 
+
+// II) Exmaple 2 -> Gathering (Rest Operator)
 
 const { firstName, lastName, ...rest } = person;
 console.log(firstName); // Output: Billy

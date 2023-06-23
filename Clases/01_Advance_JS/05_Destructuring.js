@@ -1,5 +1,7 @@
-// Destructuring
-//
+// -----------------------------------------------------------------------------
+// DESTRUCTURING
+// -----------------------------------------------------------------------------
+
 // Destructuring is a process of pulling something outside of the data
 //    structure (array or object) and assigning it to a local variable
 //
@@ -27,8 +29,8 @@ const person = {
 
 const animals = ["horse", "dog", "fish", "cat", "bird"];
 
-//****************************************************************************************************************/
-// BEFORE ES6 - you had to destructure / access everything one value at a time (manually)
+
+// I) BEFORE ES6 -> You had to destructure / access everything one value at a time (manually)
 var es5_firstName = person.firstName;
 var es5_lastName = person.lastName;
 var es5_email = person.email;
@@ -45,7 +47,7 @@ console.log(es5_thirdAnimal); // Output: fish
 
 console.log("----------------------");
 
-// AFTER ES6 - destructuring "automatically" copies a value from the object / array
+// II) AFTER ES6 -> destructuring "automatically" copies a value from the object / array
 
 // Destructuring an object
 const { firstName, password, lastName, email } = person;
@@ -67,19 +69,10 @@ console.log(email2); // Output: 30
 console.log("----------------------");
 
 // Destructuring an array with rest operator
-// 1) DECLARATIVE APPROACH (FUNCTIONAL PROGRAMMING)
 const [firstAnimal, secondAnimal, ...restAnimals] = animals;
 console.log(firstAnimal); // Output: horse
 console.log(secondAnimal); // Output: dog
 console.log(restAnimals); // Output: ['fish', 'cat', 'bird']
-
-// 2) IMPERATIVE APPROACH
-// const firstAnimal2 = animals[0];
-// const secondAnimal2 = animals[1];
-// const restAnimals2 = []
-// for (var i = 2; i < animals.length; i++) {
-//   restAnimals2.push(animals[i]);
-// }
 
 console.log("----------------------");
 
@@ -91,9 +84,11 @@ console.log(fifthAnimal); // Output: bird
 console.log("----------------------");
 
 // Destructuring nested objects
+const { addresses: [firstAddress, SecondAddress] } = person;
+
+// Below same as above:
 // const { addresses }= person; -> IDEM: const {addresses: addresses} = person;
 // const [firstAddress, SecondAddress] = addresses;
 
-const { addresses: [firstAddress, SecondAddress] } = person;
 console.log(firstAddress); // Output: { address: '1600 Pennsylvania Avenue', city: 'Washington, D.C.', zipcode: '20500' }
 console.log(SecondAddress); // Output: { address: '221B Baker St.', city: 'London', zipcode: 'WC2N 5DU' }

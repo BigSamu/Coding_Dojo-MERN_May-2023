@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// Ternary Operators
+// TERNARY OPERATORS
 //------------------------------------------------------------------------------
 
 const person = {
@@ -18,10 +18,18 @@ if(person.password === "passw0rd!") {
   console.log("Thanks for changing your password!");  // false
 }
 
+
+// Ternary Operator -> Basic
+console.log("Using the ternary operator");
+person.password === "passw0rd!"
+  ? console.log("You need to change your password!")
+  : console.log("Thanks for changing your password!");
+
+
 console.log("----------------------");
 
-// Ternary Operator
-console.log("Using the ternary operator");
+// Ternary Operator -> nested conditionals
+console.log("Using the ternary operator -> nested conditionals");
 person.password === "passw0rd!"
   ? console.log("You need to change your password!")
   : (person.firstName == "Billy")
@@ -30,6 +38,8 @@ person.password === "passw0rd!"
 
 console.log("----------------------");
 
+// Ternary Operator -> if there is no else condition
+console.log("Using the ternary operator -> if there is no else condition");
 person.password === "passw0rd!"
   ? console.log("You need to change your password!")
   : ""

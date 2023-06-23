@@ -1,4 +1,8 @@
-// FUNCTION/GLOBAL SCOPE -> VAR
+//------------------------------------------------------------------------------
+// SCOPE
+//------------------------------------------------------------------------------
+
+// I) Function/Global Scope -> var
 
 function example() {
   var y; // hoisting
@@ -20,7 +24,7 @@ example();
 
 console.log("----------------------");
 
-// BLOCK SCOPE -> LET/CONST
+// II) Block Scope -> let and const
 function example() {
   let x = 10; // Variable x is declared with let within the function scope
 

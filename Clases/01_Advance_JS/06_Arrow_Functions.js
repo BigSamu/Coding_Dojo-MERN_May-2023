@@ -2,6 +2,10 @@
 // Arrow Functions
 //------------------------------------------------------------------------------
 
+// Arrow functions, introduced in ECMAScript 6 (ES6), provide a concise syntax
+// for writing anonymous functions in JavaScript. They offer a more compact and
+// expressive way to define functions compared to traditional function expressions.
+
 function display(name) {
   console.log(`My name is ${name}`);
 }
@@ -12,10 +16,12 @@ const displayInVariable = function (name) {
 }
 displayInVariable("Billy");
 
+const displayInVariableArrow = (name) => console.log(`My name is ${name}`);
+// Below same as above:
 // const displayInVariableArrow = (name) => {
 //   console.log(`Hello ${name}`);
 // }
-const displayInVariableArrow = (name) => console.log(`My name is ${name}`);
+
 displayInVariableArrow("Billy");
 
 console.log("----------------------");

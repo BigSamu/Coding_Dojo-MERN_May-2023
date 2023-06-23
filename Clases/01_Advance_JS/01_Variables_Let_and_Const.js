@@ -1,3 +1,7 @@
+//------------------------------------------------------------------------------
+// LET AND CONST VARIABLES
+//------------------------------------------------------------------------------
+
 // 0) VAR VS LET VS CONST
 
 // |          | Scope           | Hoisting       | Re-Declaration | Mutable  |
@@ -17,7 +21,7 @@
 //           NOTE: for objects and arrays assigned to const, their properties
 //                 can be modified, but the assignment itself cannot be changed.
 
-// I) LET keyword -> for a variable you will re-assign
+// I) LET -> for a variable you will re-assign
 console.log("----------------------");
 
 let counter = 1;
@@ -26,7 +30,7 @@ console.log(counter); // Output: 1
 counter = counter + 1;
 console.log(counter); // Output: 2
 
-// II) CONST keyword -> for a variable you won't re-assign
+// II) CONST -> for a variable you won't re-assign
 console.log("----------------------");
 
 const firstName = "John";
