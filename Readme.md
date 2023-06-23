@@ -138,7 +138,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
 
 - **Lectures (Samuel)**
   - [Class 1: Advance JS - Part I](https://drive.google.com/drive/folders/1KMhF0zX7zUPuAZMzqJSAUmb3y31kDitS?usp=drive_link)
-  - [Class 2: Advance JS - Part 2](https://us06web.zoom.us/rec/share/OhccnQon6AGDbDjsATpFAjLIaGdW669plSe6Nkfkx7A6WthsipMMCViRxlB9OjvT.XLxxeQe0Gi3GAuvx?pwd=3bZFmG8tBvaumnBRLEFl2tEKUAsBNiRz)
+  - [Class 2: Advance JS - Part II](https://us06web.zoom.us/rec/share/OhccnQon6AGDbDjsATpFAjLIaGdW669plSe6Nkfkx7A6WthsipMMCViRxlB9OjvT.XLxxeQe0Gi3GAuvx?pwd=3bZFmG8tBvaumnBRLEFl2tEKUAsBNiRz)
 
 
 - **Tutorials (Jorge)**
