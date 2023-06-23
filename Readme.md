@@ -186,6 +186,10 @@ During the course, useful resources will be listed below for guiding students in
 - **ChatGPT**
   - [ChatGPT](https://openai.com/blog/chatgpt)
 
+- ** Advance JS **
+  - [Functional Programming vs OOP](https://medium.com/swlh/functional-programming-vs-object-oriented-programming-48eee6cf6830)
+  - [E6 Variable Declaration & For Loops](https://medium.com/@mautayro/es6-variable-declaration-for-loops-why-const-works-in-a-for-in-loop-but-not-in-a-normal-a200cc5467c2)
+
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
