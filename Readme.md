@@ -32,8 +32,8 @@
 ## Course Information
 
 - **Dates WebFund Stack:** June 19th, 2023 to August 13th, 2023
-- **Lectures ("Clases"):** Tuesday/Thursday 7PM-10PM
-- **Tutorials ("Ayudantias"):** Monday/Wednesday/Friday 6PM-10PM
+- **Lectures ("Clases"):** Monday/Wednesday 7PM-10PM
+- **Tutorials ("Ayudantias"):** Tuesday/Thursday/Friday 6PM-10PM
 - **Course Calendar** → [here](https://docs.google.com/spreadsheets/d/15n7dWPJmquayvYmuep0eqpfnkM2_RktqMwbxLF2CzEA/edit#gid=0)
 - **Course Platform** → [here](https://login.codingdojo.com/login)
 - **Drive Folder with Recordings** → [here](https://drive.google.com/drive/u/1/folders/1EpeRzrncBsyOL8urh169LiUWBrkzXnqO)
