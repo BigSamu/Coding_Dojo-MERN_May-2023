@@ -32,8 +32,8 @@
 ## Course Information
 
 - **Dates WebFund Stack:** June 19th, 2023 to August 13th, 2023
-- **Lectures ("Clases"):** Tuesday/Thursday 7PM-10PM
-- **Tutorials ("Ayudantias"):** Monday/Wednesday/Friday 6PM-10PM
+- **Lectures ("Clases"):** Monday/Wednesday 7PM-10PM
+- **Tutorials ("Ayudantias"):** Tuesday/Thursday/Friday 6PM-10PM
 - **Course Calendar** → [here](https://docs.google.com/spreadsheets/d/15n7dWPJmquayvYmuep0eqpfnkM2_RktqMwbxLF2CzEA/edit#gid=0)
 - **Course Platform** → [here](https://login.codingdojo.com/login)
 - **Drive Folder with Recordings** → [here](https://drive.google.com/drive/u/1/folders/1EpeRzrncBsyOL8urh169LiUWBrkzXnqO)
@@ -143,6 +143,8 @@ Regarding the course, the main communication channels will be Zoom and Discord a
 
 - **Tutorials (Jorge)**
   - [Tutorial 1: Node, NPM (y NVM)](https://us06web.zoom.us/rec/share/cU5SpiiqN5vzADJI9b3HC2Y7b1UqiLezcjym2sq8yurxI74j_T_GKGJSruRdRxXx.2dJ_y1Rrt2i6Noln?pwd=lLrNMIlOlGsAvD5DTmm3z60trL0TXPx5)
+  - [Tutorial 2: JS Basics](https://us06web.zoom.us/rec/share/xgZkNQUpCLSam06isqQ1JV8cUdqs90IjR3tnKRLtrNCBxRoHZjgMvrBdAn3cKflT.x6VpyYsBV-d9lUYw?pwd=F12bEFwZB2RWzMzXqaS6lOsFwzb9ZgaX)
+  - [Tutorial 3: Functtional programming and apendix](https://us06web.zoom.us/rec/share/bZ-r-eBjFVpP8vU5ukg2C2knBoriYlrR35dGzwkaJ7jFM_DlKyiYvQGBycMhksr6.7vZupi6BJpp7QvME?pwd=yMf3VPLTC-TXn-vWshIo64kiS9Ngk4Et)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
