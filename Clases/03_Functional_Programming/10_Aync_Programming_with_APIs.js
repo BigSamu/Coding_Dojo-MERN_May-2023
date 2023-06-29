@@ -20,7 +20,10 @@
 // Response stream and reads it to completion. It returns a promise that resolves
 // with the result of parsing the 'data' fetched from text to JSON format.
 
+// -----------------------------------------------------------------------------
 // Example 1 - with then and catch
+// -----------------------------------------------------------------------------
+
 fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((response) => {
     console.log("----------------------");
@@ -49,16 +52,19 @@ console.log("----------------------");
 console.log("I may print before!");
 console.log("----------------------");
 
+// -----------------------------------------------------------------------------
 // Example 1 - Simplified syntax
-fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.log("inside .catch", error))
-  .finally(() => console.log(".finally", "This happens whether the .catch happens or not."));
+// -----------------------------------------------------------------------------
 
-console.log("----------------------");
-console.log("I may print before!");
-console.log("----------------------");
+// fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log("inside .catch", error))
+//   .finally(() => console.log(".finally", "This happens whether the .catch happens or not."));
+
+// console.log("----------------------");
+// console.log("I may print before!");
+// console.log("----------------------");
 
 // -----------------------------------------------------------------------------
 // OPTIONAL BELOW -> WILL BE SEE IN REACT CHAPTER

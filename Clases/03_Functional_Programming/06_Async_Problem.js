@@ -34,7 +34,7 @@ const orderSupplies = (item, callback) => {
 };
 
 const receivedItem = (item) => {
-  // item is a object
+  // Item passed is an object literal
   console.log(`Received ${item.product}, time to ${item.directions()}`);
 };
 

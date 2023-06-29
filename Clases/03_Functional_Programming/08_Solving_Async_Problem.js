@@ -35,9 +35,11 @@ const orderSupplies = (item) => {
 const receivedItem = (item) => {
   console.log(`Received ${item.product}, time to ${item.directions()}`);
 };
-
+// -----------------------------------------------------------------------------
 // I) Solving the Async Problem with chaining thens
-// NOTE: The catch statement is more general. If any error occurs, it will
+// -----------------------------------------------------------------------------
+
+// Here the catch statement is more general. If any error occurs, it will
 // catch but without the possibility of a fine grain control for each error
 
 orderSupplies("tarp") // return promise
@@ -52,7 +54,9 @@ orderSupplies("tarp") // return promise
 
 // NOTE: the above syntax is the same as below
 
+// -----------------------------------------------------------------------------
 // I.a) Solving the Async Problem with chaining thens extended form arrow functions
+// -----------------------------------------------------------------------------
 
 // orderSupplies("tarp") // return promise
 //   .then((result) => {
@@ -85,7 +89,9 @@ orderSupplies("tarp") // return promise
 // to know that the result of the previous promise is the parameter for the
 // callback function
 
-// I.a) Solving the Async Problem with chaining thens simplified
+// -----------------------------------------------------------------------------
+// I.b) Solving the Async Problem with chaining thens simplified
+// -----------------------------------------------------------------------------
 
 // orderSupplies("tarp") // return promise
 //   .then(receivedItem) // return nothing, just console.log

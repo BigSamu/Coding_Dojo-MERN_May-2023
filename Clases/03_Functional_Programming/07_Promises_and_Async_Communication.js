@@ -20,11 +20,13 @@ const promise = new Promise((resolve, reject) => {
 });
 
 // Check what a promise contains
-console.log(promise);
+console.log(promise); // Promise { <pending> }
 
-console.log("----------------------");
 
-// Example 1
+// -----------------------------------------------------------------------------
+// Example 1 - Simulating response from API resolving with no rejection
+// -----------------------------------------------------------------------------
+
 const fetchData = new Promise((resolve, reject) => {
   setTimeout(() => {
     const data = "Hello World!";
@@ -32,37 +34,40 @@ const fetchData = new Promise((resolve, reject) => {
   }, 1500);
 });
 
-// fetchData
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((error) => {
-//     console.log(error);
-//   });
-
-// Example 2
-const fetchData2 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    const data = {
-      id: 1,
-      name: "John Doe",
-      age: 30,
-    }; /* Simulated API response */
-    const status = "ok"; /* Simulated API OK status */
-    // const status = "error"; /* Simulated API ERROR status */
-
-    if (status === "ok") {
-      resolve(data);
-    } else {
-      reject("Error: Something went wrong");
-    }
-  }, 2000);
-});
-
-fetchData2
-  .then((result) => {
-    console.log(result);
+fetchData
+  .then((data) => {
+    console.log(data);
   })
   .catch((error) => {
-    console.log("Error:", error);
+    console.log(error);
   });
+
+// -----------------------------------------------------------------------------
+// Example 2 - Simulating response from API resolving with rejection
+// -----------------------------------------------------------------------------
+
+// const fetchData2 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     const data = {
+//       id: 1,
+//       name: "John Doe",
+//       age: 30,
+//     }; /* Simulated API response */
+//     const status = "ok"; /* Simulated API OK status */
+//     // const status = "error"; /* Simulated API ERROR status */
+
+//     if (status === "ok") {
+//       resolve(data);
+//     } else {
+//       reject("Error: Something went wrong");
+//     }
+//   }, 2000);
+// });
+
+// fetchData2
+//   .then((result) => {
+//     console.log(result);
+//   })
+//   .catch((error) => {
+//     console.log("Error:", error);
+//   });

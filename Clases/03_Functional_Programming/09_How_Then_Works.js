@@ -12,7 +12,10 @@ const someAsyncTask = () => {
   });
 };
 
+// -----------------------------------------------------------------------------
 // Example 1 - With console.log statements inside each .then()
+// -----------------------------------------------------------------------------
+
 someAsyncTask() // retuns a Promise
   // 1) Handling Promise
   .then((result) => { // 'result' is the output from Promise
@@ -32,10 +35,12 @@ someAsyncTask() // retuns a Promise
   .catch((error) => { // Catching any errors
     console.error("An error ocurred:", error);
   });
-
+// -----------------------------------------------------------------------------
 // Example 1 - Simplified syntax with console.log for just last .then()
-someAsyncTask() // retuns a Promise
-  .then((result) => result.toUpperCase()) // return result.toUpperCase() to next .then()
-  .then((modifiedResult) => modifiedResult.length) // return modifiedResult.length to next .then()
-  .then((resultLength) => console.log(`Result length: ${resultLength}`)) // console.log the output from previous .then()
-  .catch((error) => console.error("An error ocurred:", error)); // Catching any errors
+// -----------------------------------------------------------------------------
+
+// someAsyncTask() // retuns a Promise
+//   .then((result) => result.toUpperCase()) // return result.toUpperCase() to next .then()
+//   .then((modifiedResult) => modifiedResult.length) // return modifiedResult.length to next .then()
+//   .then((resultLength) => console.log(`Result length: ${resultLength}`)) // console.log the output from previous .then()
+//   .catch((error) => console.error("An error ocurred:", error)); // Catching any errors
