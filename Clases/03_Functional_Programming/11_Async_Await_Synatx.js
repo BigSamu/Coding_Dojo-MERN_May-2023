@@ -39,10 +39,10 @@ const fetchData = async () => {
 fetchData();
 
 // -----------------------------------------------------------------------------
-// Example 1 - brief version
+// Example 1.a) - brief version
 // -----------------------------------------------------------------------------
 
-// const fetchData2 = async () => {
+// const fetchData = async () => {
 //   try{
 //     const results = await fetch("https://jsonplaceholder.typicode.com/todos/1");
 //     const data = await results.json();
@@ -54,7 +54,26 @@ fetchData();
 //   }
 // }
 
-// fetchData2();
+// fetchData();
+
+// -----------------------------------------------------------------------------
+// Example 1.b) - brief version with no try/catch block (just catch and if statement)
+// -----------------------------------------------------------------------------
+
+// const fetchData = async () => {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     .catch((error) => {
+//       console.log("An error occurred:", error);
+//     });
+
+//   if (response) {
+//     const data = await response.json();
+//     console.log(data);
+//   }
+// }
+
+// fetchData();
+
 
 // -----------------------------------------------------------------------------
 // Example 2 - with return statement
