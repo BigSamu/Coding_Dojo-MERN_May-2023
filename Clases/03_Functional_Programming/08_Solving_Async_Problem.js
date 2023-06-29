@@ -55,7 +55,7 @@ orderSupplies("tarp") // return promise
 // NOTE: the above syntax is the same as below
 
 // -----------------------------------------------------------------------------
-// I.a) Solving the Async Problem with chaining thens extended form arrow functions
+// I.a) Solving the Async Problem with chaining thens - Extended form arrow functions
 // -----------------------------------------------------------------------------
 
 // orderSupplies("tarp") // return promise
