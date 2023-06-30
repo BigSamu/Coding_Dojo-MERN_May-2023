@@ -71,7 +71,8 @@ let arr3 = [
 ]
 
 console.log(
-    arr.map((x) => {
+    arr
+    .map((x) => {
         return x**3
     })
     .filter((x) => {
@@ -93,7 +94,14 @@ array.forEach(element => {
 });
 
 
-//find es como el filter pero solo retorna el element buscado, de lo contrario null
-arr.find
+// find es como el filter pero solo retorna el element buscado, de lo contrario undefinded
+arr.find((x) => {
 
-/
+})
+
+// sort es como el map pero ordena los elementos en base a una regla
+arr.sort()
+arr.sort((a, b) => {
+    return b-a;
+}) 
+
