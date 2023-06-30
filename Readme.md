@@ -146,6 +146,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 1: Node, NPM (y NVM)](https://us06web.zoom.us/rec/share/cU5SpiiqN5vzADJI9b3HC2Y7b1UqiLezcjym2sq8yurxI74j_T_GKGJSruRdRxXx.2dJ_y1Rrt2i6Noln?pwd=lLrNMIlOlGsAvD5DTmm3z60trL0TXPx5)
   - [Tutorial 2: JS Basics](https://us06web.zoom.us/rec/share/xgZkNQUpCLSam06isqQ1JV8cUdqs90IjR3tnKRLtrNCBxRoHZjgMvrBdAn3cKflT.x6VpyYsBV-d9lUYw?pwd=F12bEFwZB2RWzMzXqaS6lOsFwzb9ZgaX)
   - [Tutorial 3: Functtional programming and apendix](https://us06web.zoom.us/rec/share/bZ-r-eBjFVpP8vU5ukg2C2knBoriYlrR35dGzwkaJ7jFM_DlKyiYvQGBycMhksr6.7vZupi6BJpp7QvME?pwd=yMf3VPLTC-TXn-vWshIo64kiS9Ngk4Et)
+  - [Tutorial 4: Asincronismo](https://us06web.zoom.us/rec/share/M6vfo5GSChsrrEkWs-UQHmUIGS_goZFxOz8e9c3Zh-WrncOA0ArszPOY_n6m2-6g.C1CjjG8-4pjIgsjW?pwd=SdRlwigDY2f-ecYT77Ka2Oigm7pTF1Bj)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
