@@ -147,6 +147,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 2: JS Basics](https://us06web.zoom.us/rec/share/xgZkNQUpCLSam06isqQ1JV8cUdqs90IjR3tnKRLtrNCBxRoHZjgMvrBdAn3cKflT.x6VpyYsBV-d9lUYw?pwd=F12bEFwZB2RWzMzXqaS6lOsFwzb9ZgaX)
   - [Tutorial 3: Functtional programming and apendix](https://us06web.zoom.us/rec/share/bZ-r-eBjFVpP8vU5ukg2C2knBoriYlrR35dGzwkaJ7jFM_DlKyiYvQGBycMhksr6.7vZupi6BJpp7QvME?pwd=yMf3VPLTC-TXn-vWshIo64kiS9Ngk4Et)
   - [Tutorial 4: Asincronismo](https://us06web.zoom.us/rec/share/M6vfo5GSChsrrEkWs-UQHmUIGS_goZFxOz8e9c3Zh-WrncOA0ArszPOY_n6m2-6g.C1CjjG8-4pjIgsjW?pwd=SdRlwigDY2f-ecYT77Ka2Oigm7pTF1Bj)
+  - [Turial 5: POO](https://us06web.zoom.us/rec/share/v1DiAGLsvfk6WPj-nqCoz78sQaLAqBOQEOMjBsOUiFFSPUMHtcgEY8-MLu6vLo9G._SqJ7ij0cfZvvI9e?pwd=HJemLr-D_5RV_FTGtNDoFtcFqiYsQkaB)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
