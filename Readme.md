@@ -196,7 +196,9 @@ During the course, useful resources will be listed below for guiding students in
   - [E6 Variable Declaration & For Loops](https://medium.com/@mautayro/es6-variable-declaration-for-loops-why-const-works-in-a-for-in-loop-but-not-in-a-normal-a200cc5467c2)
   - [Learn callbacks, promises and Async/Await](https://dev.to/joyshaheb/learn-callbacks-promises-async-await-by-making-ice-cream-4n76)
 
-
+- ** React **
+  - [React Architecture](https://handsonreact.com/docs/architecture)
+  
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
 ---
