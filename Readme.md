@@ -124,7 +124,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
 
 >**NOTE:** Once joined to CodingDojo Discord Community look for:
 >  - *category*: "LATAM PART-TIME"
->  -  *channel*: "mayo-mern-part-time"
+>  - *channel*: "mayo-mern-part-time"
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -199,6 +199,12 @@ During the course, useful resources will be listed below for guiding students in
 
 - **React**
   - [React Architecture](https://handsonreact.com/docs/architecture)
+  - [What is react?, SPA vs MPA, What’s the difference between a library and a framework?, DOM vs Virtual DOM and Angular vs React](https://medium.com/@programterminator/what-is-react-b5f90b3a9149)
+  - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+  - [https://blog.hubspot.com/website/react-bootstrap-css](https://blog.hubspot.com/website/react-bootstrap-css)
+
+- **VSCode Add-Ons and Third-Party Libraries**
+
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
