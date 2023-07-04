@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSX and Babel</title>
+    <!-- REACT LIBRARY -->
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <!-- BABEL LIBRARY -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- CUSTOM SCRIPT -->
+    <script defer type="text/babel">
+      // React Component
+      const App = () => {
+
+        // JSX
+        return (
+          <div>
+            <h1>I am creating my first React component</h1>
+            <p>This element is nested</p>
+          </div>
+        );
+      };
+
+      // OLD WAY
+      // const container = document.getElementById("root");
+      // ReactDOM.render(<App />, container);
+
+      // NEW WAY
+      const container = document.getElementById("root");
+      const root = ReactDOM.createRoot(container);
+      root.render(<App />);
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <h1>First React page rendering...</h1>
+    </div>
+  </body>
+</html>
