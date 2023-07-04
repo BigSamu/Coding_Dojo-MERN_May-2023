@@ -201,7 +201,7 @@ During the course, useful resources will be listed below for guiding students in
   - [React Architecture](https://handsonreact.com/docs/architecture)
   - [What is react?, SPA vs MPA, What’s the difference between a library and a framework?, DOM vs Virtual DOM and Angular vs React](https://medium.com/@programterminator/what-is-react-b5f90b3a9149)
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-  - [https://blog.hubspot.com/website/react-bootstrap-css](https://blog.hubspot.com/website/react-bootstrap-css)
+  - [How to Import Bootstrap in React [The Beginner's Guide]](https://blog.hubspot.com/website/react-bootstrap-css)
 
 - **VSCode Add-Ons and Third-Party Libraries**
 
