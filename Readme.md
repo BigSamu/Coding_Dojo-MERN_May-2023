@@ -140,6 +140,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 1: Advance JS - Part I](https://drive.google.com/drive/folders/1KMhF0zX7zUPuAZMzqJSAUmb3y31kDitS?usp=drive_link)
   - [Class 2: Advance JS - Part II](https://us06web.zoom.us/rec/share/OhccnQon6AGDbDjsATpFAjLIaGdW669plSe6Nkfkx7A6WthsipMMCViRxlB9OjvT.XLxxeQe0Gi3GAuvx?pwd=3bZFmG8tBvaumnBRLEFl2tEKUAsBNiRz)
   - [Class 3: Advance JS - Part III](https://us06web.zoom.us/rec/share/4DVEy2FC7l23b0OJyq2AJz7Yccz-VCVlK3IPlwVJzmmgap_18kxpgp7sePrTfSfd.BEmcZdUerVfiB5hm?pwd=39-Zyi_COfgWRRVf8c4oiZwIe-bSVIjU)
+  - [Class 4: Intro React](https://drive.google.com/drive/u/1/folders/1LKYw3OaWSl1VKi8MBcz2EKff6SaGDowb)
 
 
 - **Tutorials (Jorge)**
@@ -191,14 +192,14 @@ During the course, useful resources will be listed below for guiding students in
 - **ChatGPT**
   - [ChatGPT](https://openai.com/blog/chatgpt)
 
-- ** Advance JS **
+- **AdvanceJS **
   - [Functional Programming vs OOP](https://medium.com/swlh/functional-programming-vs-object-oriented-programming-48eee6cf6830)
   - [E6 Variable Declaration & For Loops](https://medium.com/@mautayro/es6-variable-declaration-for-loops-why-const-works-in-a-for-in-loop-but-not-in-a-normal-a200cc5467c2)
   - [Learn callbacks, promises and Async/Await](https://dev.to/joyshaheb/learn-callbacks-promises-async-await-by-making-ice-cream-4n76)
 
-- ** React **
+- **React**
   - [React Architecture](https://handsonreact.com/docs/architecture)
-  
+
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
 ---
