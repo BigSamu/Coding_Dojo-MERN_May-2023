@@ -3,9 +3,6 @@ import Title from "./components/Title";
 import PersonCard from "./components/PersonCard";
 import Button from "./components/Button";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
 function App() {
   return (
     <div className="App">
