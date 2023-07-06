@@ -1,0 +1,21 @@
+/* my_button.module.css */
+
+.my_button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my_button:hover {
+  background-color: #0056b3;
+}
+
+.my_button:active {
+  background-color: #003080;
+}
