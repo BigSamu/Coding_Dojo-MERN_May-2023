@@ -207,7 +207,7 @@ During the course, useful resources will be listed below for guiding students in
 
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-  - [Prettier]
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
