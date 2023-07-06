@@ -140,7 +140,8 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 1: Advance JS - Part I](https://drive.google.com/drive/folders/1KMhF0zX7zUPuAZMzqJSAUmb3y31kDitS?usp=drive_link)
   - [Class 2: Advance JS - Part II](https://us06web.zoom.us/rec/share/OhccnQon6AGDbDjsATpFAjLIaGdW669plSe6Nkfkx7A6WthsipMMCViRxlB9OjvT.XLxxeQe0Gi3GAuvx?pwd=3bZFmG8tBvaumnBRLEFl2tEKUAsBNiRz)
   - [Class 3: Advance JS - Part III](https://us06web.zoom.us/rec/share/4DVEy2FC7l23b0OJyq2AJz7Yccz-VCVlK3IPlwVJzmmgap_18kxpgp7sePrTfSfd.BEmcZdUerVfiB5hm?pwd=39-Zyi_COfgWRRVf8c4oiZwIe-bSVIjU)
-  - [Class 4: Intro React](https://drive.google.com/drive/u/1/folders/1LKYw3OaWSl1VKi8MBcz2EKff6SaGDowb)
+  - [Class 4: Intro React - Part I](https://drive.google.com/drive/u/1/folders/1LKYw3OaWSl1VKi8MBcz2EKff6SaGDowb)
+  - [Class 5: Intro React - Part II](https://us06web.zoom.us/rec/share/9K-TJytUNnb17TSHnLe4-as83g-EZc10l-FAG1GoWXD6nOxYs0ZwtbjC3Glc1pKa.vmZjKADJg342h1b1?pwd=xFHI-a6a0sWqgpohmRxVBjJIaR_2QYZv)
 
 
 - **Tutorials (Jorge)**
@@ -200,10 +201,13 @@ During the course, useful resources will be listed below for guiding students in
 - **React**
   - [React Architecture](https://handsonreact.com/docs/architecture)
   - [What is react?, SPA vs MPA, What’s the difference between a library and a framework?, DOM vs Virtual DOM and Angular vs React](https://medium.com/@programterminator/what-is-react-b5f90b3a9149)
-  - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
   - [How to Import Bootstrap in React [The Beginner's Guide]](https://blog.hubspot.com/website/react-bootstrap-css)
+  - [Controlled vs Uncontrolled Components](https://blog.logrocket.com/controlled-vs-uncontrolled-components-in-react/)
 
 - **VSCode Add-Ons and Third-Party Libraries**
+  - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+  - [Prettier]
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
