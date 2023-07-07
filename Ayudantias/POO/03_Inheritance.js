@@ -49,6 +49,7 @@ class SavingAccount extends BankAccount {
     return this;
   }
 
+  // Overloading y no cambia el metodo original, sino que agrega una alternativa
   withdraw(amount, is_early) {
     if (is_early) {
       amount = amount * 1.10;
@@ -59,6 +60,12 @@ class SavingAccount extends BankAccount {
       console.log("INSUFFICIENT FUNDS");
     }
     return this;
+  }
+
+  // Overriding, no cambia el metodo original (no afecta el metodo del padre), pero este es el que se va a usar  
+  withdraw(amount) {
+    this.balance -= amount * 1.01
+    return this
   }
 }
 
