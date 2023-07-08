@@ -10,22 +10,27 @@ const Box = (props) => {
         backgroundColor: "#f00"
     });
 
+    let onClick = ()=> {
+        let w = Math.random() * 1000
+        let h = Math.random() * 1000
+        let color_idx = Math.round(Math.random() * (colors.length))
+
+
+        let new_style = {
+            ...style,
+            width: `${w}px`,
+            height: `${h}px`,
+            backgroundColor: colors[color_idx]
+        }
+        setStyle(new_style);
+    }
+
     return (
-        <div onClick={()=> {
-            let w = Math.random() * 1000
-            let h = Math.random() * 1000
-            let color_idx = Math.round(Math.random() * (colors.length))
-
-
-            let new_style = {
-                ...style,
-                width: `${w}px`,
-                height: `${h}px`,
-                backgroundColor: colors[color_idx]
-            }
-            setStyle(new_style);
-        }} 
+        <div 
+            className="boxedStyle"
+            onClick={onClick} 
             style={style}>
+                Hola
         </div>
     )
 }

@@ -5,10 +5,23 @@ const Padre = (props) => {
 
     const [activeIndex, setActiveIndex] = useState(-1);
 
+    let childrenQty = 125;
+    let children = [];
+    for (let i = 0; i < childrenQty; i++){
+        children.push(i);
+    }
+
     return (
         <div>
-            <Hijo active={activeIndex === 0} onClick={()=> setActiveIndex(0)} />
-            <Hijo active={activeIndex === 1} onClick={()=> setActiveIndex(1)} />
+            {
+                children.map((idx) => {
+                    return <Hijo
+                        key={idx}
+                        isActive={activeIndex === idx} 
+                        onClick={()=> setActiveIndex(idx)} 
+                    />
+                })
+            }
         </div>
     )
 }
