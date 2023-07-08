@@ -150,7 +150,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 3: Functtional programming and apendix](https://us06web.zoom.us/rec/share/bZ-r-eBjFVpP8vU5ukg2C2knBoriYlrR35dGzwkaJ7jFM_DlKyiYvQGBycMhksr6.7vZupi6BJpp7QvME?pwd=yMf3VPLTC-TXn-vWshIo64kiS9Ngk4Et)
   - [Tutorial 4: Asincronismo](https://us06web.zoom.us/rec/share/M6vfo5GSChsrrEkWs-UQHmUIGS_goZFxOz8e9c3Zh-WrncOA0ArszPOY_n6m2-6g.C1CjjG8-4pjIgsjW?pwd=SdRlwigDY2f-ecYT77Ka2Oigm7pTF1Bj)
   - [Tutorial 5: POO](https://us06web.zoom.us/rec/share/v1DiAGLsvfk6WPj-nqCoz78sQaLAqBOQEOMjBsOUiFFSPUMHtcgEY8-MLu6vLo9G._SqJ7ij0cfZvvI9e?pwd=HJemLr-D_5RV_FTGtNDoFtcFqiYsQkaB)
-  - [Tutorial 6: Intro React](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=drive_link)
+  - [Tutorial 6: Intro React](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=sharing)
   - [Tutorial 7: React basic tricks 1](https://us06web.zoom.us/rec/share/OGdxpGqIeX9hIhABjq6n3KDVwcIY3ehJvJZwsiPOF4CAnzv0P8foq_JRGYVvL1A.WauOFHXCd9khUfjY?pwd=g4OVg3YdIEphD9Me4qf05B62dWqVvBuy)
 
 
