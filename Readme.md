@@ -142,6 +142,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 3: Advance JS - Part III](https://us06web.zoom.us/rec/share/4DVEy2FC7l23b0OJyq2AJz7Yccz-VCVlK3IPlwVJzmmgap_18kxpgp7sePrTfSfd.BEmcZdUerVfiB5hm?pwd=39-Zyi_COfgWRRVf8c4oiZwIe-bSVIjU)
   - [Class 4: Intro React - Part I](https://drive.google.com/drive/u/1/folders/1LKYw3OaWSl1VKi8MBcz2EKff6SaGDowb)
   - [Class 5: Intro React - Part II](https://us06web.zoom.us/rec/share/9K-TJytUNnb17TSHnLe4-as83g-EZc10l-FAG1GoWXD6nOxYs0ZwtbjC3Glc1pKa.vmZjKADJg342h1b1?pwd=xFHI-a6a0sWqgpohmRxVBjJIaR_2QYZv)
+  - [Class 6: React and APIs](https://us06web.zoom.us/rec/share/y-dg0yFOwBjGpmaj-9cR-iM55kSS01bgyb9w8yT88_WuoQiQpc8t9RA8VPPCsEvO.vMngh44BPIWl-UZC?pwd=ecUZJ-6QEMyXhIiWnKRm-0Ou6kFnh8TB)
 
 
 - **Tutorials (Jorge)**
@@ -152,6 +153,8 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 5: POO](https://us06web.zoom.us/rec/share/v1DiAGLsvfk6WPj-nqCoz78sQaLAqBOQEOMjBsOUiFFSPUMHtcgEY8-MLu6vLo9G._SqJ7ij0cfZvvI9e?pwd=HJemLr-D_5RV_FTGtNDoFtcFqiYsQkaB)
   - [Tutorial 6: Intro React](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=sharing)
   - [Tutorial 7: React basic tricks 1](https://us06web.zoom.us/rec/share/OGdxpGqIeX9hIhABjq6n3KDVwcIY3ehJvJZwsiPOF4CAnzv0P8foq_JRGYVvL1A.WauOFHXCd9khUfjY?pwd=g4OVg3YdIEphD9Me4qf05B62dWqVvBuy)
+  - [Tutorial 8: React basic tricks 2](https://us06web.zoom.us/rec/share/EbGCsnWwHTRJX6wxhZfZPdzEN3CNtESvLdDHVgyFtW9CeXe7fnppRGF2N4YchQK-.Ogr051_ZyWGgFPS0?pwd=71VC6GwMnuT6JqNn7E2hXS8Z3gIH0BXz)
+  - [Tutorial 9: Hooks useEffect](https://us06web.zoom.us/rec/share/-01iGwQzPJ1cHgYxYP-72z7XAJRloJVCS6SHXGSerjH1pgG-Z8E2RW_MpYkb1Mw0.LSZDm6_YVjZndRkf?pwd=PWBtEWjn9H1gh6Omfyqz2ZwSg9S_D3yf)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
