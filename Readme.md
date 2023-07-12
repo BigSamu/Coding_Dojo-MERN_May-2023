@@ -154,6 +154,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 6: Intro React](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=sharing)
   - [Tutorial 7: React basic tricks 1](https://us06web.zoom.us/rec/share/OGdxpGqIeX9hIhABjq6n3KDVwcIY3ehJvJZwsiPOF4CAnzv0P8foq_JRGYVvL1A.WauOFHXCd9khUfjY?pwd=g4OVg3YdIEphD9Me4qf05B62dWqVvBuy)
   - [Tutorial 8: React basic tricks 2](https://us06web.zoom.us/rec/share/EbGCsnWwHTRJX6wxhZfZPdzEN3CNtESvLdDHVgyFtW9CeXe7fnppRGF2N4YchQK-.Ogr051_ZyWGgFPS0?pwd=71VC6GwMnuT6JqNn7E2hXS8Z3gIH0BXz)
+  - [Tutorial 9: Hooks useEffect](https://us06web.zoom.us/rec/share/-01iGwQzPJ1cHgYxYP-72z7XAJRloJVCS6SHXGSerjH1pgG-Z8E2RW_MpYkb1Mw0.LSZDm6_YVjZndRkf?pwd=PWBtEWjn9H1gh6Omfyqz2ZwSg9S_D3yf)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
