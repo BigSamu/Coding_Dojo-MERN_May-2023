@@ -22,10 +22,22 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App bg-light p-3 text-center">
-        <h1>Routing Example</h1>
+        <h1>Routing Example With Link</h1>
 
         {/* I) Create a simple navigation */}
-        <nav className="d-flex justify-content-center my-3"></nav>
+        <nav className="d-flex justify-content-center my-3">
+          <Link to="/">
+            <h4>Home</h4>
+          </Link>
+          <h4 className="mx-2"> | </h4>
+          <Link to="/about">
+            <h4>About</h4>
+          </Link>
+          <h4 className="mx-2"> | </h4>
+          <Link to="/contact">
+            <h4>Contact</h4>
+          </Link>
+        </nav>
 
         <Counter />
         <br />

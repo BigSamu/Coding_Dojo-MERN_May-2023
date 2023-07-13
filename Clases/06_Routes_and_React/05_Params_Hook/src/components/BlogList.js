@@ -5,7 +5,7 @@ const BlogList = (props) => {
   // ---------------------------------------------
   // I) VARIABLES & HOOKS
   // ---------------------------------------------
-
+  const { blogData } = props;
   // ---------------------------------------------
   // II) HANDLERS & AUX FUNCTIONS
   // ---------------------------------------------
@@ -15,8 +15,19 @@ const BlogList = (props) => {
   // ---------------------------------------------
   return (
     <div className="list-group">
-
+      {
+        blogData && blogData.map((item, idx) =>
+          <Link
+            key={idx}
+            to={`/blog/${item.id}`}
+            className="list-group-item list-group-item-action"
+          >
+            {item.title}
+          </Link>
+        )
+      }
     </div>
+
   );
 };
 
