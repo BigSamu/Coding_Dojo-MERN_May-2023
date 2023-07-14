@@ -4,8 +4,7 @@ import { useEffect, useState } from "react"
 const SWAPISearch = (props) => {
     let [data, setData] = useState(null);
     let [input, setInput] = useState("");
-
-    let filterTimeout
+    let [timeout, setTimeFunc] = useState(null);
 
     let lllamarAPI = () => {
         axios.get('https://swapi.dev/api/people/')
@@ -32,11 +31,14 @@ const SWAPISearch = (props) => {
     }, [])
 
     useEffect(() => {
-        clearTimeout(filterTimeout)
+        clearTimeout(timeout)
         if (input !== "") {
-            filterTimeout = setTimeout(() => {
-                lllamarAPIPersonaje(input);
-            }, 500)
+            setTimeFunc(
+                setTimeout(() => {
+                    console.log(input)
+                    lllamarAPIPersonaje(input);
+                }, 500)
+            )
         }
     }, [input])
 
