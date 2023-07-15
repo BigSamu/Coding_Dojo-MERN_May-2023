@@ -69,6 +69,7 @@ Below in details all technologies that will be reviewd during this stack
 
   [![ReactJS][react-js-badge]][react-js-url]
   [![Bootstrap][bootstrap-badge]][bootstrap-url]
+  [![React Router][react-router-badge]][react-router-url]
   [![NodeJS][node-js-badge]][node-js-url]
   [![ExpressJS][express-js-badge]][express-js-url]
 
@@ -143,6 +144,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 4: Intro React - Part I](https://drive.google.com/drive/u/1/folders/1LKYw3OaWSl1VKi8MBcz2EKff6SaGDowb)
   - [Class 5: Intro React - Part II](https://us06web.zoom.us/rec/share/9K-TJytUNnb17TSHnLe4-as83g-EZc10l-FAG1GoWXD6nOxYs0ZwtbjC3Glc1pKa.vmZjKADJg342h1b1?pwd=xFHI-a6a0sWqgpohmRxVBjJIaR_2QYZv)
   - [Class 6: React and APIs](https://us06web.zoom.us/rec/share/y-dg0yFOwBjGpmaj-9cR-iM55kSS01bgyb9w8yT88_WuoQiQpc8t9RA8VPPCsEvO.vMngh44BPIWl-UZC?pwd=ecUZJ-6QEMyXhIiWnKRm-0Ou6kFnh8TB)
+  - [Class 7: React and Routing](https://us06web.zoom.us/rec/share/qWlEd6BVjX10kgvVho67TVa8KZNi_A2jO-K3JICV2y2wzrtGzBjA8BAgAW-2RagJ.tWAKHQmwLhLMQukK?pwd=XwIa1ZOmbpeHbFKJLVCvziM4u4zCEZ0p)
 
 
 - **Tutorials (Jorge)**
@@ -155,6 +157,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 7: React basic tricks 1](https://us06web.zoom.us/rec/share/OGdxpGqIeX9hIhABjq6n3KDVwcIY3ehJvJZwsiPOF4CAnzv0P8foq_JRGYVvL1A.WauOFHXCd9khUfjY?pwd=g4OVg3YdIEphD9Me4qf05B62dWqVvBuy)
   - [Tutorial 8: React basic tricks 2](https://us06web.zoom.us/rec/share/EbGCsnWwHTRJX6wxhZfZPdzEN3CNtESvLdDHVgyFtW9CeXe7fnppRGF2N4YchQK-.Ogr051_ZyWGgFPS0?pwd=71VC6GwMnuT6JqNn7E2hXS8Z3gIH0BXz)
   - [Tutorial 9: Hooks useEffect](https://us06web.zoom.us/rec/share/-01iGwQzPJ1cHgYxYP-72z7XAJRloJVCS6SHXGSerjH1pgG-Z8E2RW_MpYkb1Mw0.LSZDm6_YVjZndRkf?pwd=PWBtEWjn9H1gh6Omfyqz2ZwSg9S_D3yf)
+  - [Tutorial 10: React Router](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=sharing)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
@@ -270,6 +273,10 @@ Developed with ❤️ in Chile 🇨🇱
 [bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
 
+<!-- React Router -->
+[react-router-badge]: https://img.shields.io/badge/React%20Router-CA4245?logo=reactrouter&logoColor=fff&style=for-the-badge
+[react-router-url]: https://reactrouter.com
+
 <!-- JQuery -->
 
 [jquery-badge]: https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge
@@ -305,6 +312,8 @@ Developed with ❤️ in Chile 🇨🇱
 
 [express-js-badge]: https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge
 [express-js-url]: https://expressjs.com/
+
+
 
 <!-- 4) Databases -->
 
