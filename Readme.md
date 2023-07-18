@@ -210,9 +210,18 @@ During the course, useful resources will be listed below for guiding students in
 - **React**
   - [React Architecture](https://handsonreact.com/docs/architecture)
   - [What is react?, SPA vs MPA, What’s the difference between a library and a framework?, DOM vs Virtual DOM and Angular vs React](https://medium.com/@programterminator/what-is-react-b5f90b3a9149)
-
   - [How to Import Bootstrap in React [The Beginner's Guide]](https://blog.hubspot.com/website/react-bootstrap-css)
   - [Controlled vs Uncontrolled Components](https://blog.logrocket.com/controlled-vs-uncontrolled-components-in-react/)
+
+- HTTP and APIs
+  - [What is HTTP? Protocol Overview for Beginners](https://medium.com/geekculture/apis-query-string-parameters-f7f0c060b1)
+  - [REST API Best Practices](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
+  - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
+
+- **Node and Express**
+  - [What is a Runtime Environment](https://www.underthehoodlearning.com/what-is-runtime-environment/)
+  - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
+  - [Query vs URL Parameters](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
