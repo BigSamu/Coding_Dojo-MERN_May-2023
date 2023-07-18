@@ -219,9 +219,9 @@ During the course, useful resources will be listed below for guiding students in
   - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
 
 - **Node and Express**
-  - [What is a Runtime Environment](https://www.underthehoodlearning.com/what-is-runtime-environment/)
+  - [What is a Runtime Environment (Node.js)](https://www.underthehoodlearning.com/what-is-runtime-environment/)
   - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
-  - [Query vs URL Parameters](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
+  - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
