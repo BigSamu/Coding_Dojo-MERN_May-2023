@@ -145,6 +145,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 5: Intro React - Part II](https://us06web.zoom.us/rec/share/9K-TJytUNnb17TSHnLe4-as83g-EZc10l-FAG1GoWXD6nOxYs0ZwtbjC3Glc1pKa.vmZjKADJg342h1b1?pwd=xFHI-a6a0sWqgpohmRxVBjJIaR_2QYZv)
   - [Class 6: React and APIs](https://us06web.zoom.us/rec/share/y-dg0yFOwBjGpmaj-9cR-iM55kSS01bgyb9w8yT88_WuoQiQpc8t9RA8VPPCsEvO.vMngh44BPIWl-UZC?pwd=ecUZJ-6QEMyXhIiWnKRm-0Ou6kFnh8TB)
   - [Class 7: React and Routing](https://us06web.zoom.us/rec/share/qWlEd6BVjX10kgvVho67TVa8KZNi_A2jO-K3JICV2y2wzrtGzBjA8BAgAW-2RagJ.tWAKHQmwLhLMQukK?pwd=XwIa1ZOmbpeHbFKJLVCvziM4u4zCEZ0p)
+  - [Class 8: Express](https://drive.google.com/drive/u/4/folders/1LW3qP4Uqs8ixcFSnhRZLgU-nWGTEXmaM)
 
 
 - **Tutorials (Jorge)**
