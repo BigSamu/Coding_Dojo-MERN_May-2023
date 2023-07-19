@@ -1,5 +1,12 @@
 import axios, { Axios } from "axios";
 import { useNavigate } from "react-router-dom";
+import Buttton from "@mui/material/Button"
+import Timeline from "@mui/lab/Timeline"
+import TimelineItem from "@mui/lab/TimelineItem"
+import TimelineSeparator from "@mui/lab/TimelineSeparator"
+import TimelineDot from "@mui/lab/TimelineDot"
+import TimelineConnector from "@mui/lab/TimelineConnector"
+import TimelineContent from "@mui/lab/TimelineContent"
 const { useEffect, useState } = require("react")
 
 const CARGANDO = 1
@@ -44,19 +51,21 @@ const IndexPage = (props) => {
                 <h1>Bienvenido a la SWAPI</h1>
                 <small>Encontramos {data.length} personajes</small>
                 <div>
+                <Timeline position="left">
+                    
+                
                     {
                         data.map((datum, index) =>
-                            <div key={`div-${index}`}>
-                                <button  
-                                    onClick={()=> {
-                                        navigate(`/${datum.id}`, {state: datum})
-                                    }}
-                                    key={`btn-${index}`}>
-                                        {datum.name}
-                                </button>
-                            </div>
+                            <TimelineItem key={`item-${index}`}>
+                                    <TimelineSeparator key={`sep-${index}`}>
+                                    <TimelineDot key={`dot-${index}`} color="secondary" />
+                                    <TimelineConnector key={`conn-${index}`} />
+                                    </TimelineSeparator>
+                                    <TimelineContent key={`cont-${index}`}>{datum.name}</TimelineContent>
+                                </TimelineItem>
                         )
                     }
+                    </Timeline>
                 </div>
             </div> :
             null
