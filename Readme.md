@@ -145,6 +145,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 5: Intro React - Part II](https://us06web.zoom.us/rec/share/9K-TJytUNnb17TSHnLe4-as83g-EZc10l-FAG1GoWXD6nOxYs0ZwtbjC3Glc1pKa.vmZjKADJg342h1b1?pwd=xFHI-a6a0sWqgpohmRxVBjJIaR_2QYZv)
   - [Class 6: React and APIs](https://us06web.zoom.us/rec/share/y-dg0yFOwBjGpmaj-9cR-iM55kSS01bgyb9w8yT88_WuoQiQpc8t9RA8VPPCsEvO.vMngh44BPIWl-UZC?pwd=ecUZJ-6QEMyXhIiWnKRm-0Ou6kFnh8TB)
   - [Class 7: React and Routing](https://us06web.zoom.us/rec/share/qWlEd6BVjX10kgvVho67TVa8KZNi_A2jO-K3JICV2y2wzrtGzBjA8BAgAW-2RagJ.tWAKHQmwLhLMQukK?pwd=XwIa1ZOmbpeHbFKJLVCvziM4u4zCEZ0p)
+  - [Class 8: Express](https://drive.google.com/drive/u/4/folders/1LW3qP4Uqs8ixcFSnhRZLgU-nWGTEXmaM)
 
 
 - **Tutorials (Jorge)**
@@ -158,6 +159,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 8: React basic tricks 2](https://us06web.zoom.us/rec/share/EbGCsnWwHTRJX6wxhZfZPdzEN3CNtESvLdDHVgyFtW9CeXe7fnppRGF2N4YchQK-.Ogr051_ZyWGgFPS0?pwd=71VC6GwMnuT6JqNn7E2hXS8Z3gIH0BXz)
   - [Tutorial 9: Hooks useEffect](https://us06web.zoom.us/rec/share/-01iGwQzPJ1cHgYxYP-72z7XAJRloJVCS6SHXGSerjH1pgG-Z8E2RW_MpYkb1Mw0.LSZDm6_YVjZndRkf?pwd=PWBtEWjn9H1gh6Omfyqz2ZwSg9S_D3yf)
   - [Tutorial 10: React Router](https://drive.google.com/drive/folders/19Y_uy1p6oI4egu9cGRplnOip68zGhIN8?usp=sharing)
+  - [Tutorial 11: React router and navigate](https://drive.google.com/drive/folders/1A28-VFV7KGHqd8A4wl42c88Auq1MRIVa?usp=sharing)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
@@ -209,9 +211,18 @@ During the course, useful resources will be listed below for guiding students in
 - **React**
   - [React Architecture](https://handsonreact.com/docs/architecture)
   - [What is react?, SPA vs MPA, What’s the difference between a library and a framework?, DOM vs Virtual DOM and Angular vs React](https://medium.com/@programterminator/what-is-react-b5f90b3a9149)
-
   - [How to Import Bootstrap in React [The Beginner's Guide]](https://blog.hubspot.com/website/react-bootstrap-css)
   - [Controlled vs Uncontrolled Components](https://blog.logrocket.com/controlled-vs-uncontrolled-components-in-react/)
+
+- HTTP and APIs
+  - [What is HTTP? Protocol Overview for Beginners](https://medium.com/geekculture/apis-query-string-parameters-f7f0c060b1)
+  - [REST API Best Practices](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
+  - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
+
+- **Node and Express**
+  - [What is a Runtime Environment (Node.js)](https://www.underthehoodlearning.com/what-is-runtime-environment/)
+  - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
+  - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)

@@ -38,7 +38,12 @@ const App = () => {
         />
         <Route
           path="/results"
-          element={<Results surveyResults={surveyResults} setSurveyResults={setSurveyResults} />}
+          element={
+            <Results
+              surveyResults={surveyResults}
+              setSurveyResults={setSurveyResults}
+            />
+          }
         />
       </Routes>
     </div>
