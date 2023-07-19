@@ -225,6 +225,11 @@ During the course, useful resources will be listed below for guiding students in
   - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
   - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
+- **MongoDB**
+  - [MongoDB v6 - Windows Installation](aa)
+  - [MongoDB v6 - Mac Installation](aa)
+
+
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
