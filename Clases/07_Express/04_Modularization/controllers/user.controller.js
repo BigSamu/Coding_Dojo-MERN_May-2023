@@ -2,10 +2,9 @@
 // CONTROLLER SETUP - User
 // ---------------------------------------------------
 
-// Importing the User model
-const UserModel = require("../models/user.model");
+const UserModel = require("../models/user.model")
 
-// Hardcoded data
+// Defining an array of hardcoded users
 const users = [
   new UserModel(1, "Reimu", "Hakurei"),
   new UserModel(2, "Marisa", "Kirisame"),
@@ -14,8 +13,10 @@ const users = [
   new UserModel(5, "Momiji", "Inubashiri"),
 ];
 
+// Defining the controller object
+
 module.exports = {
-  // Get all users (GET)
+  // Get all users
   getAllUsers: (req, res) => {
     res.json(users);
   },
@@ -65,4 +66,5 @@ module.exports = {
       res.status(404).json({ error: "User not found" });
     }
   },
-}
+};
+

@@ -14,8 +14,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // 4) Importing API routes passing the Express instance 'app'
-const routes = require("./routes/user.routes");
-routes(app);
+const UserRoutes = require("./routes/user.routes");
+UserRoutes(app);
 
 // 5) Running instance of Express server in selected port
 app.listen(port, () => console.log(`Listening on port: ${port}`));

@@ -1,12 +1,11 @@
 // ---------------------------------------------------
 // MODEL SETUP - User
 // ---------------------------------------------------
-
-class User {
-  constructor(id, firstName, lastName){
+class User{
+  constructor(id, firstname, lastname){
     this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
+    this.firstname = firstname;
+    this.lastname = lastname;
   }
 }
 
