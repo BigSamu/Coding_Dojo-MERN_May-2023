@@ -1,0 +1,28 @@
+MongoDB 6.0 Example:
+
+1. Show the available databases:
+   show databases
+
+2. Use the "students" database:
+   use students
+
+3. Drop the "students" database (CAUTION: This operation permanently deletes the database and its collections):
+   db.dropDatabase()
+
+4. Create the "students" database:
+   use students
+
+5. Show the collections in the "students" database:
+   show collections
+
+6. Create the "ninjas" collection:
+   db.createCollection("ninjas")
+
+7. Create the "dojos" collection:
+   db.createCollection("dojos")
+
+8. Drop the "ninjas" collection:
+   db.ninjas.drop()
+
+9. Drop the "dojos" collection:
+   db.dojos.drop()

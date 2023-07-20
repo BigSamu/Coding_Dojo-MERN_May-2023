@@ -226,7 +226,7 @@ During the course, useful resources will be listed below for guiding students in
   - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
 - **MongoDB**
-  - [MongoDB v6 - Windows Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Windows%20Installation.pdf)
+  - [MongoDB v6 - Windows Installation](https://www.youtube.com/watch?v=gB6WLkSrtJk)
   - [MongoDB v6 - Mac Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Mac%20Installation.pdf)
 
 

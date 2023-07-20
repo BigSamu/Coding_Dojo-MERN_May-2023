@@ -1,0 +1,47 @@
+MongoDB 6.0 Example (Continued):
+
+6. Create the "ninjas" collection:
+   db.createCollection("ninjas")
+
+7. Create the "dojos" collection:
+   db.createCollection("dojos")
+
+8. Insert documents into the "ninjas" collection:
+   db.ninjas.insertOne({ name: "Ninja 1", rank: 1, speciality: "Stealth", weapons: ["Shuriken"] })
+   db.ninjas.insertOne({ name: "Ninja 2", rank: 2, speciality: "Weapons", weapons: ["Katana", "Nunchaku"] })
+   db.ninjas.insertOne({ name: "Ninja 3", rank: 3, speciality: "Acrobatics", weapons: ["Sai"] })
+
+9. Insert documents into the "dojos" collection:
+   db.dojos.insertOne({ name: "Dojo 1", location: "San Francisco", sensei: "Sensei 1", students: 10 })
+   db.dojos.insertOne({ name: "Dojo 2", location: "New York", sensei: "Sensei 2", students: 15 })
+   db.dojos.insertOne({ name: "Dojo 3", location: "Tokyo", sensei: "Sensei 3", students: 20 })
+
+10. Retrieve ninjas with a rank greater than 1 from the "ninjas" collection:
+    db.ninjas.find({ rank: { $gt: 1 } })
+
+11. Retrieve dojos located in "San Francisco" or "New York" from the "dojos" collection:
+    db.dojos.find({ location: { $in: ["San Francisco", "New York"] } })
+
+12. Update a ninja's speciality to "Agility" if their rank is currently greater than 1 in the "ninjas" collection:
+    db.ninjas.updateOne({ rank: { $gt: 1 } }, { $set: { speciality: "Agility" } })
+
+13. Add a new weapon "Kusarigama" to a ninja's weapons array in the "ninjas" collection:
+    db.ninjas.updateOne({ name: "Ninja 1" }, { $push: { weapons: "Kusarigama" } })
+
+14. Remove the last weapon from a ninja's weapons array in the "ninjas" collection:
+    db.ninjas.updateOne({ name: "Ninja 1" }, { $pop: { weapons: 1 } })
+
+15. Add a new interest "Meditation" to a ninja's interests array in the "ninjas" collection if it doesn't already exist:
+    db.ninjas.updateOne({ name: "Ninja 1" }, { $addToSet: { interests: "Meditation" } })
+
+16. Add a new interest "Meditation" and "Coding" to a ninja's interests array in the "ninjas" collection if it doesn't already exist:
+    db.ninjas.updateOne({ name: "Ninja 2" }, { $addToSet: { interests: {$each: ["Meditation","Coding"]} } })
+
+17. Remove a specific interest "Coding" from a ninja's interests array in the "ninjas" collection:
+    db.ninjas.updateOne({ name: "Ninja 2" }, { $pull: { interests: "Coding" } })
+
+18. Retrieve ninjas with a rank less than or equal to 2 from the "ninjas" collection:
+    db.ninjas.find({ rank: { $lte: 2 } })
+
+19. Retrieve dojos with more than 10 students from the "dojos" collection:
+    db.dojos.find({ students: { $gt: 10 } })
