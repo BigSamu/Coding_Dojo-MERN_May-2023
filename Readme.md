@@ -222,6 +222,7 @@ During the course, useful resources will be listed below for guiding students in
   - [What is HTTP? Protocol Overview for Beginners](https://medium.com/geekculture/apis-query-string-parameters-f7f0c060b1)
   - [REST API Best Practices](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
   - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
+  - [HTTP and Statelessness](https://medium.com/@jaimietn/http-and-statelessness-5e290fec80c0)
 
 - **Node and Express**
   - [What is a Runtime Environment (Node.js)](https://www.underthehoodlearning.com/what-is-runtime-environment/)
@@ -231,6 +232,9 @@ During the course, useful resources will be listed below for guiding students in
 - **MongoDB**
   - [MongoDB v6 - Windows Installation](https://www.youtube.com/watch?v=gB6WLkSrtJk)
   - [MongoDB v6 - Mac Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Mac%20Installation.pdf)
+
+- **MERN**
+  - [Understanding the MVC Architecture in the MERN Stack](https://shubhamjha25.medium.com/understanding-the-mvc-architecture-in-the-mern-stack-aff893abce50)
 
 
 - **VSCode Add-Ons and Third-Party Libraries**
