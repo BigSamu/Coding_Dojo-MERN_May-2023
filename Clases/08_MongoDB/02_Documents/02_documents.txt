@@ -1,0 +1,35 @@
+MongoDB 6.0 Example (Continued):
+
+6. Create the "ninjas" collection:
+   db.createCollection("ninjas")
+
+7. Create the "dojos" collection:
+   db.createCollection("dojos")
+
+8. Insert documents into the "ninjas" collection:
+   db.ninjas.insertOne({ name: "Ninja 1", rank: 1, speciality: "Stealth" })
+   db.ninjas.insertOne({ name: "Ninja 2", rank: 2, speciality: "Weapons" })
+   db.ninjas.insertOne({ name: "Ninja 3", rank: 3, speciality: "Acrobatics" })
+
+9. Insert documents into the "dojos" collection:
+   db.dojos.insertOne({ name: "Dojo 1", location: "San Francisco", sensei: "Sensei 1" })
+   db.dojos.insertOne({ name: "Dojo 2", location: "New York", sensei: "Sensei 2" })
+   db.dojos.insertOne({ name: "Dojo 3", location: "Tokyo", sensei: "Sensei 3" })
+
+10. Retrieve all documents from the "ninjas" collection:
+    db.ninjas.find()
+
+11. Retrieve all documents from the "dojos" collection:
+    db.dojos.find()
+
+12. Update a document in the "ninjas" collection:
+    db.ninjas.updateOne({ name: "Ninja 1" }, { $set: { speciality: "Agility" } })
+
+13. Update a document in the "dojos" collection:
+    db.dojos.updateOne({ name: "Dojo 1" }, { $set: { location: "Los Angeles" } })
+
+14. Delete a document from the "ninjas" collection:
+    db.ninjas.deleteOne({ name: "Ninja 2" })
+
+15. Delete a document from the "dojos" collection:
+    db.dojos.deleteOne({ name: "Dojo 3" })

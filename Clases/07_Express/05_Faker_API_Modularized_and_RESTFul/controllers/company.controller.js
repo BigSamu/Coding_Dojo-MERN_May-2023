@@ -12,3 +12,4 @@ module.exports = {
     res.json({ company: newCompany });
   },
 }
+

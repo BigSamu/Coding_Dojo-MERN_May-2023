@@ -147,6 +147,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 7: React and Routing](https://us06web.zoom.us/rec/share/qWlEd6BVjX10kgvVho67TVa8KZNi_A2jO-K3JICV2y2wzrtGzBjA8BAgAW-2RagJ.tWAKHQmwLhLMQukK?pwd=XwIa1ZOmbpeHbFKJLVCvziM4u4zCEZ0p)
   - [Class 8: Express - Part I](https://drive.google.com/drive/u/4/folders/1LW3qP4Uqs8ixcFSnhRZLgU-nWGTEXmaM)
   - [Class 9: Express - Part II](https://drive.google.com/drive/u/4/folders/1Met5BUepuPwdHj8QqIdZUFzwe_hlDJ36)
+  - [Class 10: MongoDB and Mongoose](https://us06web.zoom.us/rec/share/23TIkCTniTbyOFFwYmpBK_kQeYJJ8L2aaYpgGQLDGfaP2uKRUrmt5qTqy7yflTqF.weFtedyiSUR3MgVZ?pwd=0sm2efWANz3w4lIzc8AR9ept5QysuMVZ)
 
 
 - **Tutorials (Jorge)**
