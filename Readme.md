@@ -231,9 +231,11 @@ During the course, useful resources will be listed below for guiding students in
   - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
   - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
-- **MongoDB**
+- **Databases and MongoDB**
+  - [SQL vs NoSQL](https://medium.com/nerd-for-tech/sql-vs-nosql-faef10e3852d)
   - [MongoDB v6 - Windows Installation](https://www.youtube.com/watch?v=gB6WLkSrtJk)
   - [MongoDB v6 - Mac Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Mac%20Installation.pdf)
+
 
 - **MERN**
   - [Understanding the MVC Architecture in the MERN Stack](https://shubhamjha25.medium.com/understanding-the-mvc-architecture-in-the-mern-stack-aff893abce50)
