@@ -16,9 +16,11 @@ app.use(express.urlencoded({ extended: true }));
 // 4) Initializing connection to NoSQL database (MongoDB) using Moongose interface
 require("./config/mongoose.config");
 
-// 5) Importing API routes passing the Express instance 'app'
-const UserRoutes = require("./routes/user.routes");
-UserRoutes(app);
+// 5) Importing API routes and incorporating them to 'app' instance
+const UserRouter = require("./routes/user.routes");
+const PetRouter = require("./routes/pet.routes");
+app.use("/api/users", UserRouter);
+app.use("/api/pets", PetRouter);
 
 // 6) Running instance of Express server in selected port
 app.listen(port, () => console.log(`Listening on port: ${port}`));
