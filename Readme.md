@@ -148,6 +148,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 8: Express - Part I](https://drive.google.com/drive/u/4/folders/1LW3qP4Uqs8ixcFSnhRZLgU-nWGTEXmaM)
   - [Class 9: Express - Part II](https://drive.google.com/drive/u/4/folders/1Met5BUepuPwdHj8QqIdZUFzwe_hlDJ36)
   - [Class 10: MongoDB and Mongoose](https://us06web.zoom.us/rec/share/23TIkCTniTbyOFFwYmpBK_kQeYJJ8L2aaYpgGQLDGfaP2uKRUrmt5qTqy7yflTqF.weFtedyiSUR3MgVZ?pwd=0sm2efWANz3w4lIzc8AR9ept5QysuMVZ)
+  - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
 
 
 - **Tutorials (Jorge)**
@@ -225,15 +226,18 @@ During the course, useful resources will be listed below for guiding students in
   - [REST API Best Practices](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
   - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
   - [HTTP and Statelessness](https://medium.com/@jaimietn/http-and-statelessness-5e290fec80c0)
+  - [CORS](https://medium.com/tribalscale/stop-cursing-cors-c2cbb4997057)
 
 - **Node and Express**
   - [What is a Runtime Environment (Node.js)](https://www.underthehoodlearning.com/what-is-runtime-environment/)
   - [Express: req.params vs req.query vs req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
   - [Query vs. URL Parameters in Express.js](https://javascript.plainenglish.io/query-strings-url-parameters-d1a35b9a694f)
 
-- **MongoDB**
+- **Databases and MongoDB**
+  - [SQL vs NoSQL](https://medium.com/nerd-for-tech/sql-vs-nosql-faef10e3852d)
   - [MongoDB v6 - Windows Installation](https://www.youtube.com/watch?v=gB6WLkSrtJk)
   - [MongoDB v6 - Mac Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Mac%20Installation.pdf)
+
 
 - **MERN**
   - [Understanding the MVC Architecture in the MERN Stack](https://shubhamjha25.medium.com/understanding-the-mvc-architecture-in-the-mern-stack-aff893abce50)

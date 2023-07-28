@@ -1,0 +1,47 @@
+User 1
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com",
+  "age": 30,
+  "interests": ["Reading", "Swimming"],
+}
+
+User 2
+{
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com",
+  "age": 25,
+  "interests": ["Cooking", "Hiking", "Photography"]
+}
+
+User 3
+{
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com",
+  "age": 40,
+  "interests": ["Traveling", "Sports"]
+}
+
+Pet 1
+{
+  "name": "Max",
+  "type": "Dog",
+  "owner": "614b3497e385b5f4a8dbd8f1"
+}
+
+Pet 2
+{
+  "name": "Whiskers",
+  "type": "Cat",
+  "owner": "614b3497e385b5f4a8dbd8f2"
+}
+
+Pet 3
+{
+  "name": "Nibbles",
+  "type": "Hamster",
+  "owner": "614b3497e385b5f4a8dbd8f2"
+}
