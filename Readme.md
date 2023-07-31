@@ -149,6 +149,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 9: Express - Part II](https://drive.google.com/drive/u/4/folders/1Met5BUepuPwdHj8QqIdZUFzwe_hlDJ36)
   - [Class 10: MongoDB and Mongoose](https://us06web.zoom.us/rec/share/23TIkCTniTbyOFFwYmpBK_kQeYJJ8L2aaYpgGQLDGfaP2uKRUrmt5qTqy7yflTqF.weFtedyiSUR3MgVZ?pwd=0sm2efWANz3w4lIzc8AR9ept5QysuMVZ)
   - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
+  <!-- - [Class 12: Full-Stack MERN] -->
 
 
 - **Tutorials (Jorge)**

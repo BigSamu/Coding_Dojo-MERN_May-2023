@@ -2,11 +2,15 @@
 // CONTROLLER SETUP - Pet
 // ---------------------------------------------------
 
-// 1) Importing Model
+// 1) Importing External Libraries
+const mongoose = require('mongoose');
+const { ObjectId } = mongoose.Types; // Destructuring assignment to get ObjectId
+
+// 2) Importing Model
 const PetModel = require("../models/pet.model");
 const UserModel = require("../models/user.model");
 
-// 2) Exporting Controller functions
+// 3) Exporting Controller functions
 module.exports = {
   // 2.1) READ METHODS
   findAllPets: (req, res) => {
@@ -18,6 +22,8 @@ module.exports = {
       );
   },
   findOnePetById: (req, res) => {
+    if (!ObjectId.isValid(req.params.id))
+      return res.status(400).json({message: "UUID doesn't match the specified format"})
     PetModel.findOne({ _id: req.params.id })
       .populate("owner")
       .then((oneSinglePet) => {
@@ -50,7 +56,9 @@ module.exports = {
       );
   },
   // 2.3) UPDATE METHODS
-  updateExistingPet: (req, res) => {
+  updateOnePetById: (req, res) => {
+    if (!ObjectId.isValid(req.params.id))
+      return res.status(400).json({message: "UUID doesn't match the specified format"})
     const updateOptions = {
       new: true, // Return the updated document
       runValidators: true, // Enforce validation during update
@@ -77,7 +85,9 @@ module.exports = {
         res.status(500).json({ message: "Something went wrong", error: err })
       );
   },
-  deleteAnExistingPet: (req, res) => {
+  deleteOnePetById: (req, res) => {
+    if (!ObjectId.isValid(req.params.id))
+      return res.status(400).json({message: "UUID doesn't match the specified format"})
     PetModel.deleteOne({ _id: req.params.id })
       .then((result) => {
         if (result.deletedCount === 0) {

@@ -7,9 +7,9 @@ const {
   findAllPets,
   findOnePetById,
   createNewPet,
-  updateExistingPet,
+  updateOnePetById,
   deleteAllPets,
-  deleteAnExistingPet,
+  deleteOnePetById,
 } = require("../controllers/pet.controller");
 express = require("express");
 
@@ -20,9 +20,9 @@ const PetRouter = express.Router();
 PetRouter.get("/", findAllPets);
 PetRouter.get("/:id/", findOnePetById);
 PetRouter.post("/", createNewPet);
-PetRouter.put("/:id/", updateExistingPet);
+PetRouter.put("/:id/", updateOnePetById);
 PetRouter.delete("/", deleteAllPets);
-PetRouter.delete("/:id/", deleteAnExistingPet);
+PetRouter.delete("/:id/", deleteOnePetById);
 
 // 4) Exporting Router
 module.exports = PetRouter;

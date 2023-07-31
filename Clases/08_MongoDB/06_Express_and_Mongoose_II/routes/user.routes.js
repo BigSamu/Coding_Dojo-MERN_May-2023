@@ -8,7 +8,7 @@ const {
   getOneUserById,
   findOneUserByEmail,
   createNewUser,
-  updateExisitingUser,
+  updateOneUserById,
   deleteAllUsers,
   deleteOneUserById,
 } = require("../controllers/user.controller");
@@ -23,7 +23,7 @@ UserRouter.get("/", getAllUsers);
 UserRouter.get("/by-email", findOneUserByEmail);
 UserRouter.get("/:id", getOneUserById);
 UserRouter.post("/", createNewUser);
-UserRouter.put("/:id", updateExisitingUser);
+UserRouter.put("/:id", updateOneUserById);
 UserRouter.delete("/", deleteAllUsers);
 UserRouter.delete("/:id", deleteOneUserById);
 
