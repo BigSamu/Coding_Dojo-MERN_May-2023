@@ -20,8 +20,14 @@ module.exports = {
                 ok: true
             })
         }).catch((error) => {
+            let keys = Object.keys(error.errors);
+            let error_dict = {}
+            keys.map((key) => {
+                error_dict[key] = error.errors[key].message
+            })
+
             return res.json({
-                error: error.toString()
+                error: error_dict
             })
         })
         

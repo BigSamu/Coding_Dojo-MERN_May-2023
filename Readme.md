@@ -168,6 +168,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 13: Express Routing](https://us06web.zoom.us/rec/share/jkCpCtKEbyIVzWoDAdXiP6Vg9xi7QL_dv00NzJbUaINK5nAWLQID_BuaHeCuqVhh.sY7vjeLAkXkB53dv?pwd=tcde-WMig1KoeibLmcOavguiRxwfGf3a)
   - [Tutorial 14: Express Routing alternativo e Instalación de Mongo](https://us06web.zoom.us/rec/share/0GsBmd-2thdnB-oMX6dVlE878tl6dDAPchsbYR_-cw6qxd_tNmtznH8YPinAgLfX.-m00tTd_Tazn25A0?pwd=_a13focmOxbR9ll45jrzpS782ZixbIem)
   - [Tutorial 15: express y Mongo](https://us06web.zoom.us/rec/share/WkqGtih55WWHbd5cPUtVZPaXVDacch02lmKw27fbNqorkWzKkHqI1Cc7mbK7n2yY.-ei2XnQ-KmyoX2wT?pwd=AVsTIZKhH_apCBjGfuakgh0GRzz_OWUh)
+  - [Tutorial 16: Examen de prueba 1](https://us06web.zoom.us/rec/share/kk4FABVItti7IaCl2QZB-zHYftyUoVstHPH3HZoLXSj3QFrX4ND4unL91dEeusvc.E_pq4B2-g0HNKOyW?pwd=ByBGVSLuOszxlGG_ggbDNN0EwVNUHkax)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
