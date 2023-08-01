@@ -18,7 +18,7 @@ module.exports = {
       .populate("owner")
       .then((allPets) => res.status(200).json(allPets))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   findOnePetById: (req, res) => {
@@ -34,7 +34,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   // 2.2) CREATE METHODS
@@ -52,7 +52,7 @@ module.exports = {
       .then((updatedUser) =>  PetModel.findOne({_id: newPetCreated._id}).populate("owner"))
       .then((newPet) => res.status(201).json(newPet))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err }) // {message: ..., errors: {name:..., type...}}
       );
   },
   // 2.3) UPDATE METHODS
@@ -74,7 +74,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   // 2.4) DELETE METHODS
@@ -82,7 +82,7 @@ module.exports = {
     PetModel.deleteMany({})
       .then((result) => res.status(200).json({ result: result }))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   deleteOnePetById: (req, res) => {
@@ -97,7 +97,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
 };
