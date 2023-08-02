@@ -17,7 +17,7 @@ module.exports = {
       .populate("pets")
       .then((allUsers) => res.status(200).json(allUsers))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   getOneUserById: (req, res) => {
@@ -35,10 +35,11 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   findOneUserByEmail: (req, res) => {
+    
     UserModel.findOne({ email: req.query.email })
       .populate("pets")
       .then((oneSingleUser) => {
@@ -49,7 +50,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
 
@@ -58,7 +59,7 @@ module.exports = {
     UserModel.create(req.body)
       .then((newUser) => res.status(201).json(newUser))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   // 2.3) UPDATE METHODS
@@ -81,7 +82,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
 
@@ -90,7 +91,7 @@ module.exports = {
     UserModel.deleteMany({})
       .then((result) => res.status(200).json(result))
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
   deleteOneUserById: (req, res) => {
@@ -107,7 +108,7 @@ module.exports = {
         }
       })
       .catch((err) =>
-        res.status(500).json({ message: "Something went wrong", error: err })
+        res.status(500).json({ message: "Something went wrong", errors: err })
       );
   },
 };

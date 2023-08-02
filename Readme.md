@@ -149,6 +149,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 9: Express - Part II](https://drive.google.com/drive/u/4/folders/1Met5BUepuPwdHj8QqIdZUFzwe_hlDJ36)
   - [Class 10: MongoDB and Mongoose](https://us06web.zoom.us/rec/share/23TIkCTniTbyOFFwYmpBK_kQeYJJ8L2aaYpgGQLDGfaP2uKRUrmt5qTqy7yflTqF.weFtedyiSUR3MgVZ?pwd=0sm2efWANz3w4lIzc8AR9ept5QysuMVZ)
   - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
+  - [Class 12: Full-Stack MERN](https://us06web.zoom.us/rec/share/TZ5qYMoHwp57cNGE3OSMxrM6kjkBTEvlGDcJ01qiqzpJRSGDoO-81ew4YttBJdYO.vUk_ocjQ61Sov0-Z?pwd=KmMtg74fdV9scs9RFl7AC4FRFvvsp41R)
 
 
 - **Tutorials (Jorge)**
@@ -168,6 +169,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 14: Express Routing alternativo e Instalación de Mongo](https://us06web.zoom.us/rec/share/0GsBmd-2thdnB-oMX6dVlE878tl6dDAPchsbYR_-cw6qxd_tNmtznH8YPinAgLfX.-m00tTd_Tazn25A0?pwd=_a13focmOxbR9ll45jrzpS782ZixbIem)
   - [Tutorial 15: express y Mongo](https://us06web.zoom.us/rec/share/WkqGtih55WWHbd5cPUtVZPaXVDacch02lmKw27fbNqorkWzKkHqI1Cc7mbK7n2yY.-ei2XnQ-KmyoX2wT?pwd=AVsTIZKhH_apCBjGfuakgh0GRzz_OWUh)
   - [Tutorial 16: Examen de prueba 1](https://us06web.zoom.us/rec/share/kk4FABVItti7IaCl2QZB-zHYftyUoVstHPH3HZoLXSj3QFrX4ND4unL91dEeusvc.E_pq4B2-g0HNKOyW?pwd=ByBGVSLuOszxlGG_ggbDNN0EwVNUHkax)
+  - [Tutorial 17: Mini Clase extra y Examen de prueba 2: El fin de la API](https://us06web.zoom.us/rec/share/dU8iwMLCz2KBV9TnwvlWHKT3SR6uYkTK2EIiQvwi7rDyWabftQjcB4yR8qwJiyF5._FgLQcHuf6LW70vJ?pwd=k-jiV3VL0AVEYFOBlpjVTRaBfDCy7J27)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
@@ -242,6 +244,8 @@ During the course, useful resources will be listed below for guiding students in
 
 - **MERN**
   - [Understanding the MVC Architecture in the MERN Stack](https://shubhamjha25.medium.com/understanding-the-mvc-architecture-in-the-mern-stack-aff893abce50)
+  - [Stoping Cursing CORS](https://medium.com/tribalscale/stop-cursing-cors-c2cbb4997057)
+  - [Using cookies to store JWT for authentication and authorization in a MERN stack app](https://medium.com/@zahedialfurquan20/using-cookies-to-store-jwt-for-authentication-and-authorization-in-a-mern-stack-app-a58d7a5d6b6e)
 
 
 - **VSCode Add-Ons and Third-Party Libraries**
