@@ -55,7 +55,7 @@ module.exports = {
                 // i) Create a token to store info using JWTs
                 const userInfo = {
                   _id: user._id,
-                  username: user.username,
+                  name: user.name,
                   email: user.email,
                 };
                 const userToken = jwt.sign(userInfo, process.env.JWT_SECRET);

@@ -10,9 +10,9 @@ const uniqueValidator = require("mongoose-unique-validator");
 // 2) Creating Schema for Model (blueprint)
 const UserSchema = new mongoose.Schema(
   {
-    username: {
+    name: {
       type: String,
-      required: [true, "Error: username is required"],
+      required: [true, "Error: name is required"],
     },
     email: {
       type: String,

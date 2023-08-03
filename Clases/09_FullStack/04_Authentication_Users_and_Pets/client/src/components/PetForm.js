@@ -180,7 +180,7 @@ const PetForm = (props) => {
               {usersList &&
                 usersList.map((item, idx) => (
                   <option key={idx} value={item._id}>
-                    {item.first_name} {item.last_name}
+                    {item.name}
                   </option>
                 ))}
             </select>
