@@ -8,8 +8,8 @@ const UserTable = (props) => {
   // I) HOOKS AND VARIABLES
   // --------------------------------------------------
 
-  // Variables
-  const { usersList, setUsersList } = props;
+  // State Hooks
+  const {usersList, setUsersList} = props;
 
   // Effect Hooks
   useEffect(() => {
@@ -21,17 +21,12 @@ const UserTable = (props) => {
   // --------------------------------------------------
 
   const getAllUsers = async () => {
-    try {
-      let res = await axios.get("http://localhost:8000/api/users");
-      setUsersList(_.orderBy(res.data, ["first_name"], ["asc"]));
+    try{
+      let res = await axios.get("http://localhost:8000/api/users")
+      setUsersList(_.orderBy(res.data, ["last_name"], ["asc"]));
     } catch (err) {
-      console.error(err);
+      console.log(err);
     }
-
-    // Below same as above:
-    // axios.get("http://localhost:8000/api/users")
-    //   .then((res) => setUsersList(res.data))
-    //   .catch((err) => console.error(err));
   };
 
   // --------------------------------------------------
@@ -40,12 +35,13 @@ const UserTable = (props) => {
   return (
     <div className="w-75 mt-4">
       <table className="table table-striped">
-        <thead className="table-secondary">
+        <thead className = "table-secondary">
           <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
             <th scope="col">Age</th>
             <th scope="col">Interests</th>
+            <th scope="col">Pets</th>
           </tr>
         </thead>
         <tbody>
@@ -57,7 +53,8 @@ const UserTable = (props) => {
                   {item.first_name} {item.last_name}
                 </td>
                 <td>{item.age}</td>
-                <td>{item.interests.join(", ")}</td>
+                <td> {item?.interests.join(", ")}</td>
+                <td> {item?.pets.map((pet) => pet.name).join(", ")}</td>
               </tr>
             ))}
         </tbody>

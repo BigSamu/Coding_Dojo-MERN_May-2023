@@ -4,7 +4,6 @@
 
 // 1) Importing External Libraries
 const mongoose = require("mongoose");
-const uniqueValidator = require("mongoose-unique-validator");
 
 // 2) Creating Schema for Model (blueprint)
 const UserSchema = new mongoose.Schema(
@@ -41,18 +40,18 @@ const UserSchema = new mongoose.Schema(
         validator: (interestsArray) => interestsArray.length > 0,
         message: "At least one interest must be provided",
       },
-    }
+    },
+    pets: {
+      type: [{type: mongoose.Schema.Types.ObjectId, ref: "Pet"}],
+    },
   },
   {
     timestamps: true,
   }
 );
 
-// 4) Apply the uniqueValidator plugin to userSchema.
-UserSchema.plugin(uniqueValidator);
-
-// 5) Creating Model using Schema
+// 3) Creating Model using Schema
 const UserModel = mongoose.model("User", UserSchema);
 
-// 6) Exporting Model
+// 4) Exporting Model
 module.exports = UserModel;
