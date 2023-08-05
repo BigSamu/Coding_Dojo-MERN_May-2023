@@ -32,4 +32,3 @@ const PirateSchema = new mongoose.Schema({
 const PirateModel = mongoose.model("Pirates", PirateSchema);
 
 module.exports = PirateModel;
-

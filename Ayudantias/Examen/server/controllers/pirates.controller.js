@@ -26,7 +26,6 @@ module.exports = {
     },
     createPirate : (req, res) => {
         let data = req.body;
-        console.log(data);
         PirateModel.create(data)
             .then((pirate) => {
                 res.json({data: pirate})
@@ -43,7 +42,6 @@ module.exports = {
                     res.status(500).json({error: error})
                 }
             })
-
     },
     deletePirate : (req, res) => {
         let id = req.params.id
