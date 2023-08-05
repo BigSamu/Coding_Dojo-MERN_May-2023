@@ -4,8 +4,8 @@
 
 // 1) Importing Controller Methods and Express Third-party Library
 const {
-  getAllUsers,
-  getOneUserById,
+  findAllUsers,
+  findOneUserById,
   findOneUserByEmail,
   createNewUser,
   updateOneUserById,
@@ -19,9 +19,9 @@ const express = require("express");
 const UserRouter = express.Router();
 
 // 3) Link Routes with Controller Methods
-UserRouter.get("/", getAllUsers);
+UserRouter.get("/", findAllUsers);
 UserRouter.get("/by-email", findOneUserByEmail);
-UserRouter.get("/:id", getOneUserById);
+UserRouter.get("/:id", findOneUserById);
 UserRouter.post("/", createNewUser);
 UserRouter.put("/:id", updateOneUserById);
 UserRouter.delete("/", deleteAllUsers);

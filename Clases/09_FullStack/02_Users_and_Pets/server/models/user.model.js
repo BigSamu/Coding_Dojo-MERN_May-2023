@@ -41,10 +41,7 @@ const UserSchema = new mongoose.Schema(
         validator: (interestsArray) => interestsArray.length > 0,
         message: "At least one interest must be provided",
       },
-    },
-    pets: {
-      type: [{type: mongoose.Schema.Types.ObjectId, ref: "Pet"}],
-    },
+    }
   },
   {
     timestamps: true,

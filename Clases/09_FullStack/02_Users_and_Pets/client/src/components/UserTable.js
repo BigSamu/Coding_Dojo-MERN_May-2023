@@ -9,7 +9,7 @@ const UserTable = (props) => {
   // --------------------------------------------------
 
   // Variables
-  const {usersList, setUsersList} = props;
+  const { usersList, setUsersList } = props;
 
   // Effect Hooks
   useEffect(() => {
@@ -46,19 +46,20 @@ const UserTable = (props) => {
             <th scope="col">Name</th>
             <th scope="col">Age</th>
             <th scope="col">Interests</th>
-            <th scope="col">Pets</th>
           </tr>
         </thead>
         <tbody>
-          {usersList && usersList.map((item, idx) => (
-            <tr key={idx}>
-              <th scope="row">{idx + 1}</th>
-              <td>{item.first_name} {item.last_name}</td>
-              <td>{item.age}</td>
-              <td>{item.interests.join(", ")}</td>
-              <td> {item.pets.map((pet) => pet.name).join(", ")}</td>
-            </tr>
-          ))}
+          {usersList &&
+            usersList.map((item, idx) => (
+              <tr key={idx}>
+                <th scope="row">{idx + 1}</th>
+                <td>
+                  {item.first_name} {item.last_name}
+                </td>
+                <td>{item.age}</td>
+                <td>{item.interests.join(", ")}</td>
+              </tr>
+            ))}
         </tbody>
       </table>
     </div>

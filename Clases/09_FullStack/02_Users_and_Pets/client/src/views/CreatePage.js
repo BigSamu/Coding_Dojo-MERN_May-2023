@@ -19,7 +19,7 @@ const CreatePage = () => {
     <div>
       <h1 className="text-decoration-underline mb-3">Super Pets Website</h1>
       <h4> Add a new pet </h4>
-      <PetForm/>
+      <PetForm formType={"create"}/>
       <hr/>
       <div className="mt-2">
         <Link to={"/"}>Back to Home</Link>

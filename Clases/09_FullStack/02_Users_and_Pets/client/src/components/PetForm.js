@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 import axios from "axios";
 import _ from "lodash";
+import DeleteButton from "./DeleteButton";
 
 const PetForm = (props) => {
   // --------------------------------------------------
@@ -27,6 +28,9 @@ const PetForm = (props) => {
 
   // Effect Hooks
   useEffect(() => {
+    if (formType === "update") {
+      getOnePetById();
+    }
     getAllUsers();
   }, []);
 
@@ -47,14 +51,35 @@ const PetForm = (props) => {
 
   const onSubmitPetDetailsHandler = (e) => {
     e.preventDefault();
-    createPet();
+    console.log(formType);
+    if (formType === "update") {
+      // Update Form
+      updatePet();
+    } else {
+      // Create Form
+      createPet();
+    }
   };
 
   // ii) API Calls
+
+  const getOnePetById = async () => {
+    try {
+      let res = await axios.get(`http://localhost:8000/api/pets/${petId}`);
+      let petToUpdate = {
+        name: res.data.name,
+        type: res.data.type,
+        owner: res.data.owner._id,
+      };
+      setPet(petToUpdate);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   const getAllUsers = async () => {
     try {
       let res = await axios.get("http://localhost:8000/api/users");
-      console.log(res.data);
       setUsersList(_.orderBy(res.data, ["last_name"], ["asc"]));
     } catch (err) {
       console.log(err);
@@ -68,14 +93,28 @@ const PetForm = (props) => {
     } catch (err) {
       console.log(err);
       // extract error messages from err.response.data
-      updateErrorMEssages(err);
+      updateErrorMessages(err);
+    }
+  };
+
+  const updatePet = async () => {
+    try {
+      let res = await axios.put(`http://localhost:8000/api/pets/${petId}`, pet);
+      navigate("/");
+    } catch (err) {
+      console.log(err);
+      // extract error messages from err.response.data
+      updateErrorMessages(err);
     }
   };
 
   // iii) Aux Functions
-  const updateErrorMEssages = (err) => {
-    let errors = err.response.data.errors.errors;
+  const updateErrorMessages = (err) => {
+    let errors = err.response.data.errors?.errors;
     let errorMessagesToUpdate = _.mapValues(errors, (error) => error.message);
+    if (errorMessagesToUpdate.owner > "0") {
+      errorMessagesToUpdate.owner = "Please select an owner";
+    }
     setErrorMessages(errorMessagesToUpdate);
   };
 
@@ -133,9 +172,11 @@ const PetForm = (props) => {
               id="owner"
               name="owner"
               onChange={onChangePetDetailsHandler}
-              required
+              value={pet.owner}
             >
-              <option value="">Select an owner</option>
+              {_.isEmpty(pet.owner) && (
+                <option value="">Select an owner</option>
+              )}
               {usersList &&
                 usersList.map((item, idx) => (
                   <option key={idx} value={item._id}>
@@ -143,13 +184,15 @@ const PetForm = (props) => {
                   </option>
                 ))}
             </select>
+            <div className="text-danger small">{errorMessages?.owner}</div>
           </div>
         </div>
 
         {/* Submit Button */}
         <button type="submit" className="btn btn-success">
-          Add
+          {formType != "update" ? "Add" : "Edit"}
         </button>
+        {formType == "update" && <DeleteButton petId={petId} changeStyle={true}/>}
       </form>
     </div>
   );

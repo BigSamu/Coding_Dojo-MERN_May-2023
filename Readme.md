@@ -150,6 +150,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 10: MongoDB and Mongoose](https://us06web.zoom.us/rec/share/23TIkCTniTbyOFFwYmpBK_kQeYJJ8L2aaYpgGQLDGfaP2uKRUrmt5qTqy7yflTqF.weFtedyiSUR3MgVZ?pwd=0sm2efWANz3w4lIzc8AR9ept5QysuMVZ)
   - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
   - [Class 12: Full-Stack MERN](https://us06web.zoom.us/rec/share/TZ5qYMoHwp57cNGE3OSMxrM6kjkBTEvlGDcJ01qiqzpJRSGDoO-81ew4YttBJdYO.vUk_ocjQ61Sov0-Z?pwd=KmMtg74fdV9scs9RFl7AC4FRFvvsp41R)
+  - [Class 13: Full-Stack MERN Part II](https://us06web.zoom.us/rec/share/8D8ZHOdhx4hrpP8SVIIlJHFw20Sj-2lk7_dn6QsOeqCAmKDj7Y9C6iaouv_rEwf2.Ewz-gkLeD-Ew_mPZ?pwd=buyha5W7sZ9z6r2j2psXQuGXR3A6lofU)
 
 
 - **Tutorials (Jorge)**
@@ -170,6 +171,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 15: express y Mongo](https://us06web.zoom.us/rec/share/WkqGtih55WWHbd5cPUtVZPaXVDacch02lmKw27fbNqorkWzKkHqI1Cc7mbK7n2yY.-ei2XnQ-KmyoX2wT?pwd=AVsTIZKhH_apCBjGfuakgh0GRzz_OWUh)
   - [Tutorial 16: Examen de prueba 1](https://us06web.zoom.us/rec/share/kk4FABVItti7IaCl2QZB-zHYftyUoVstHPH3HZoLXSj3QFrX4ND4unL91dEeusvc.E_pq4B2-g0HNKOyW?pwd=ByBGVSLuOszxlGG_ggbDNN0EwVNUHkax)
   - [Tutorial 17: Mini Clase extra y Examen de prueba 2: El fin de la API](https://us06web.zoom.us/rec/share/dU8iwMLCz2KBV9TnwvlWHKT3SR6uYkTK2EIiQvwi7rDyWabftQjcB4yR8qwJiyF5._FgLQcHuf6LW70vJ?pwd=k-jiV3VL0AVEYFOBlpjVTRaBfDCy7J27)
+  - [Tutorial 18: Mini Clase Extra y Examen de prueba 3: La planificación del UI](https://us06web.zoom.us/rec/share/OfcVX6GxZ4PpE_Opa0uDC9GeECMYjsZnm70dv_mDdPNVusB0emgpCPjcYHg_6VbO.zQHv2xq2ae6gsAf3?pwd=NG7AJaGLvAxEk_EBjrcl34dy1y8LdqGL)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
@@ -229,7 +231,6 @@ During the course, useful resources will be listed below for guiding students in
   - [REST API Best Practices](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
   - [REST Parameters Type](https://rapidapi.com/guides/rest-parameter-types)
   - [HTTP and Statelessness](https://medium.com/@jaimietn/http-and-statelessness-5e290fec80c0)
-  - [CORS](https://medium.com/tribalscale/stop-cursing-cors-c2cbb4997057)
 
 - **Node and Express**
   - [What is a Runtime Environment (Node.js)](https://www.underthehoodlearning.com/what-is-runtime-environment/)
@@ -241,12 +242,14 @@ During the course, useful resources will be listed below for guiding students in
   - [MongoDB v6 - Windows Installation](https://www.youtube.com/watch?v=gB6WLkSrtJk)
   - [MongoDB v6 - Mac Installation](https://github.com/BigSamu/Coding_Dojo-MERN_May-2023/blob/main/Clases/08_MongoDB/00_MongoDB%20Installation/Mac%20Installation.pdf)
 
-
 - **MERN**
   - [Understanding the MVC Architecture in the MERN Stack](https://shubhamjha25.medium.com/understanding-the-mvc-architecture-in-the-mern-stack-aff893abce50)
+
+- **Security and Auth**
   - [Stoping Cursing CORS](https://medium.com/tribalscale/stop-cursing-cors-c2cbb4997057)
   - [Using cookies to store JWT for authentication and authorization in a MERN stack app](https://medium.com/@zahedialfurquan20/using-cookies-to-store-jwt-for-authentication-and-authorization-in-a-mern-stack-app-a58d7a5d6b6e)
-
+  - [JSON Web Tokens (JWT)](https://jwt.io/)
+  - [Cookies and Sessions](https://medium.com/geekculture/cookies-sessions-1cb9e4ad6f7b)
 
 - **VSCode Add-Ons and Third-Party Libraries**
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
