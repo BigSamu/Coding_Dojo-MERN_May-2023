@@ -151,6 +151,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
   - [Class 12: Full-Stack MERN](https://us06web.zoom.us/rec/share/TZ5qYMoHwp57cNGE3OSMxrM6kjkBTEvlGDcJ01qiqzpJRSGDoO-81ew4YttBJdYO.vUk_ocjQ61Sov0-Z?pwd=KmMtg74fdV9scs9RFl7AC4FRFvvsp41R)
   - [Class 13: Full-Stack MERN Part II](https://us06web.zoom.us/rec/share/8D8ZHOdhx4hrpP8SVIIlJHFw20Sj-2lk7_dn6QsOeqCAmKDj7Y9C6iaouv_rEwf2.Ewz-gkLeD-Ew_mPZ?pwd=buyha5W7sZ9z6r2j2psXQuGXR3A6lofU)
+  - [Class 14: Full-Stack MERN PART III](https://us06web.zoom.us/rec/share/pHXusSXbaGDDo3K1eXBeGho8iEIoJF7psmeaTB1F2iLVEWRcOYLhOcMs2qP7iACm.dBoxtFjvna3Wv6b0?pwd=GmD3VtyQTdDOCWlxuJ0A7Va3RNLhIhG3)
 
 
 - **Tutorials (Jorge)**
