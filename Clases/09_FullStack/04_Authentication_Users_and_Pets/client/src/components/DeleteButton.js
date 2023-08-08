@@ -36,7 +36,9 @@ const DeleteButton = (props) => {
   // ii) API Calls
   const deletePetById = async (petId) => {
     try {
-      let res = await axios.delete("http://localhost:8000/api/pets/" + petId);
+      let res = await axios.delete("http://localhost:8000/api/pets/" + petId, {
+        withCredentials: true,
+      });
       console.log(res);
     } catch (err) {
       console.error(err);
@@ -49,8 +51,7 @@ const DeleteButton = (props) => {
   return (
     <>
       <button
-        className={
-          `mx-${changeStyle ? "2" : "1"}
+        className={`mx-${changeStyle ? "2" : "1"}
           btn btn-outline-danger ${changeStyle ? "" : "btn-sm py-0"}
         `}
         onClick={handleOnClickDeleteButton}

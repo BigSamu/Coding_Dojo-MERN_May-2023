@@ -11,8 +11,11 @@ const PetTable = (props) => {
   // I) VARIABLES & HOOKS
   // ---------------------------------------------
 
+  // Destructuring Props
+  const { user } = props;
+
   // Variables
-  const {usersList, setUsersList} = props;
+  const { usersList, setUsersList } = props;
 
   // State Hooks
   const [petsList, setPetsList] = useState();
@@ -28,7 +31,9 @@ const PetTable = (props) => {
 
   const getAllPets = async () => {
     try {
-      let res = await axios.get("http://localhost:8000/api/pets");
+      let res = await axios.get("http://localhost:8000/api/pets", {
+        withCredentials: true,
+      });
       setPetsList(_.orderBy(res.data, ["name"], ["asc"]));
     } catch (err) {
       console.log(err);
@@ -39,7 +44,6 @@ const PetTable = (props) => {
     // Remove pet from petsList
     setPetsList(petsList.filter((pet) => pet._id !== petId));
   };
-
 
   // ---------------------------------------------
   // III) JSX
@@ -64,7 +68,7 @@ const PetTable = (props) => {
                 <th scope="row">{idx + 1}</th>
                 <td>{item.name}</td>
                 <td>{item.type}</td>
-                <td>{item.owner?.first_name + " " + item.owner?.last_name } </td>
+                <td>{item.owner?.name} </td>
                 <td>
                   <Link
                     className="btn btn-link btn-sm py-0"
@@ -72,18 +76,22 @@ const PetTable = (props) => {
                   >
                     Details
                   </Link>
-                  |
-                  <Link
-                    className="mx-1 btn btn-outline-success btn-sm py-0"
-                    to={`pets/${item._id}/edit`}
-                  >
-                    Edit
-                  </Link>
-                  |
-                  <DeleteButton
-                    pet={item}
-                    removePetFromList = {removePetFromList}
-                  />
+                  {user?._id === item.owner?._id && (
+                    <>
+                      |
+                      <Link
+                        className="mx-1 btn btn-outline-success btn-sm py-0"
+                        to={`pets/${item._id}/edit`}
+                      >
+                        Edit
+                      </Link>
+                      |
+                      <DeleteButton
+                        pet={item}
+                        removePetFromList={removePetFromList}
+                      />
+                    </>
+                  )}
                 </td>
               </tr>
             ))}

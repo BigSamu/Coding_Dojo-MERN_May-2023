@@ -19,6 +19,20 @@ const ProtectedRoute = (props) => {
   return <>{!user ? <Navigate to={redirectPath} replace /> : children}</>;
 };
 
+const PublicRoute = (props) => {
+  // --------------------------------------------------
+  // I) HOOKS AND VARIABLES
+  // --------------------------------------------------
+
+  // Variables
+  const { user, redirectPath = "/", children } = props;
+
+  // --------------------------------------------------
+  // II) JSX
+  // --------------------------------------------------
+  return <>{user ? <Navigate to={redirectPath} replace /> : children}</>;
+};
+
 // **************************************************************************
 // B) MAIN COMPONENT
 // **************************************************************************
@@ -28,23 +42,33 @@ const App = () => {
   // I) HOOKS AND VARIABLES
   // --------------------------------------------------
 
+  // Variables
+  const userDetails = JSON.parse(localStorage.getItem("user"));
+  const userInfo = userDetails ? userDetails : null;
   // State Hooks
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(userInfo);
 
   // --------------------------------------------------
   // II) JSX
   // --------------------------------------------------
   return (
     <div className="App">
-      <NavBar />
+      <NavBar setUser={setUser} />
       <div className="p-3 container">
         <Routes>
-          <Route path="/login" element={<LogRegPage />} />
+          <Route
+            path="/login"
+            element={
+              <PublicRoute user={user}>
+                <LogRegPage setUser={setUser} />
+              </PublicRoute>
+            }
+          />
           <Route
             path="/"
             element={
               <ProtectedRoute user={user}>
-                <HomePage />
+                <HomePage user={user}/>
               </ProtectedRoute>
             }
           />
@@ -52,7 +76,7 @@ const App = () => {
             path="/pets/new"
             element={
               <ProtectedRoute user={user}>
-                <CreatePage />
+                <CreatePage user={user}/>
               </ProtectedRoute>
             }
           />
@@ -68,7 +92,7 @@ const App = () => {
             path="/pets/:petId/edit"
             element={
               <ProtectedRoute user={user}>
-                <UpdatePage />
+                <UpdatePage user={user}/>
               </ProtectedRoute>
             }
           />
