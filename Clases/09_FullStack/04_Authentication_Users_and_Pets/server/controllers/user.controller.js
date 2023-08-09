@@ -27,7 +27,6 @@ module.exports = {
           .json({ message: "User successfully created", user: newUser });
       })
       .catch((err) => {
-        console.log(err);
         if (err.name === "ValidationError") {
           return res
             .status(400)
