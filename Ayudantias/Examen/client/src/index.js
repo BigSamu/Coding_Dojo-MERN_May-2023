@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css"
 import PiratesView from './View/PiratesView/Pirates.view';
+import PirateDetailView from './View/PirateDetailView/PirateDetail.view';
+import PirateCreateView from './View/PirateCreateView/PirateCreate.view';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PiratesView />
+    <PirateCreateView  />
   </React.StrictMode>
 );
 
