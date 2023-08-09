@@ -5,10 +5,13 @@ import { MdOutlinePets } from "react-icons/md"; // Import the icon from react-ic
 import axios from "axios";
 import _ from "lodash";
 
-const NavBar = () => {
+const NavBar = (props) => {
   // --------------------------------------------------
   // I) HOOKS AND VARIABLES
   // --------------------------------------------------
+
+  // Destructuring Props
+  const { setUser } = props;
 
   // React Router Hooks - Params and Navigation
   const location = useLocation();
@@ -31,13 +34,16 @@ const NavBar = () => {
     logoutUser();
   };
 
-  // ii) Auxiliar Functions
+  // ii) API Calls
   const logoutUser = async () => {
     try {
       await axios.get("http://localhost:8000/api/users/logout",
-        // { withCredentials: true }
+        { withCredentials: true }
       );
+      localStorage.removeItem("user");
+      setUser(null)
       navigate("/login")
+
     } catch (err) {
       console.log("Error: ", err)
     }

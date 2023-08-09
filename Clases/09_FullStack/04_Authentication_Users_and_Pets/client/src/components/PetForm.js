@@ -11,15 +11,15 @@ const PetForm = (props) => {
   // --------------------------------------------------
 
   // Variables
-  const { formType } = props;
+  const { formType, user } = props;
 
   // State Hooks
   const [pet, setPet] = useState({
     name: "",
     type: "",
-    owner: "",
+    owner: user._id,
   });
-  const [usersList, setUsersList] = useState();
+
   const [errorMessages, setErrorMessages] = useState();
 
   // Params and Navigate Hooks
@@ -31,7 +31,6 @@ const PetForm = (props) => {
     if (formType === "update") {
       getOnePetById();
     }
-    getAllUsers();
   }, []);
 
   // --------------------------------------------------
@@ -51,7 +50,6 @@ const PetForm = (props) => {
 
   const onSubmitPetDetailsHandler = (e) => {
     e.preventDefault();
-    console.log(formType);
     if (formType === "update") {
       // Update Form
       updatePet();
@@ -65,7 +63,9 @@ const PetForm = (props) => {
 
   const getOnePetById = async () => {
     try {
-      let res = await axios.get(`http://localhost:8000/api/pets/${petId}`);
+      let res = await axios.get(`http://localhost:8000/api/pets/${petId}`, {
+        withCredentials: true,
+      });
       let petToUpdate = {
         name: res.data.name,
         type: res.data.type,
@@ -77,18 +77,11 @@ const PetForm = (props) => {
     }
   };
 
-  const getAllUsers = async () => {
-    try {
-      let res = await axios.get("http://localhost:8000/api/users");
-      setUsersList(_.orderBy(res.data, ["last_name"], ["asc"]));
-    } catch (err) {
-      console.log(err);
-    }
-  };
-
   const createPet = async () => {
     try {
-      let res = await axios.post("http://localhost:8000/api/pets", pet);
+      let res = await axios.post("http://localhost:8000/api/pets", pet, {
+        withCredentials: true,
+      });
       navigate("/");
     } catch (err) {
       console.log(err);
@@ -99,7 +92,11 @@ const PetForm = (props) => {
 
   const updatePet = async () => {
     try {
-      let res = await axios.put(`http://localhost:8000/api/pets/${petId}`, pet);
+      let res = await axios.put(
+        `http://localhost:8000/api/pets/${petId}`,
+        pet,
+        { withCredentials: true }
+      );
       navigate("/");
     } catch (err) {
       console.log(err);
@@ -160,39 +157,13 @@ const PetForm = (props) => {
           </div>
         </div>
 
-        {/* Owner Field */}
-        <div className="row mb-3">
-          <label htmlFor="owner" className="col-2 col-form-label text-left">
-            Owner:
-          </label>
-          <div className="col-5">
-            <select
-              type="text"
-              className="form-select"
-              id="owner"
-              name="owner"
-              onChange={onChangePetDetailsHandler}
-              value={pet.owner}
-            >
-              {_.isEmpty(pet.owner) && (
-                <option value="">Select an owner</option>
-              )}
-              {usersList &&
-                usersList.map((item, idx) => (
-                  <option key={idx} value={item._id}>
-                    {item.name}
-                  </option>
-                ))}
-            </select>
-            <div className="text-danger small">{errorMessages?.owner}</div>
-          </div>
-        </div>
-
         {/* Submit Button */}
         <button type="submit" className="btn btn-success">
           {formType != "update" ? "Add" : "Edit"}
         </button>
-        {formType == "update" && <DeleteButton petId={petId} changeStyle={true}/>}
+        {formType == "update" && (
+          <DeleteButton petId={petId} changeStyle={true} />
+        )}
       </form>
     </div>
   );

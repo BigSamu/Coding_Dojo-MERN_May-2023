@@ -25,7 +25,9 @@ const DetailsPage = () => {
 
   const getOnePetById = async () => {
     try {
-      let res = await axios.get("http://localhost:8000/api/pets/" + petId);
+      let res = await axios.get("http://localhost:8000/api/pets/" + petId,{
+        withCredentials: true,
+      });
       setPet(res.data);
     } catch (err) {
       console.log(err);
@@ -48,16 +50,13 @@ const DetailsPage = () => {
           <ul>
             <li>
               <strong>Name: </strong>
-              {pet?.owner.first_name} {pet?.owner.last_name}
+              {pet?.owner?.name}
             </li>
             <li>
-              <strong>Age: </strong>
-              {pet?.owner.age}
+              <strong>Email: </strong>
+              {pet?.owner?.email}
             </li>
-            <li>
-              <strong>Interests: </strong>
-              {pet?.owner?.interests.join(", ")}
-            </li>
+
           </ul>
         </li>
       </ul>

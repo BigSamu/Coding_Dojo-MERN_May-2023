@@ -151,6 +151,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 11: Moongose and Express](https://us06web.zoom.us/rec/share/t16y8ovzuFbLQ_YB-yON53Cg8kQZBtcDY9-thoCWqvBwjqvsk2ceaCoN6W0dBbN-.GiOacW6ZkRO2HXg0?pwd=waQs5pJBUa6WVAIuN735U1B7eOC2COAo)
   - [Class 12: Full-Stack MERN](https://us06web.zoom.us/rec/share/TZ5qYMoHwp57cNGE3OSMxrM6kjkBTEvlGDcJ01qiqzpJRSGDoO-81ew4YttBJdYO.vUk_ocjQ61Sov0-Z?pwd=KmMtg74fdV9scs9RFl7AC4FRFvvsp41R)
   - [Class 13: Full-Stack MERN Part II](https://us06web.zoom.us/rec/share/8D8ZHOdhx4hrpP8SVIIlJHFw20Sj-2lk7_dn6QsOeqCAmKDj7Y9C6iaouv_rEwf2.Ewz-gkLeD-Ew_mPZ?pwd=buyha5W7sZ9z6r2j2psXQuGXR3A6lofU)
+  - [Class 14: Full-Stack MERN PART III](https://us06web.zoom.us/rec/share/pHXusSXbaGDDo3K1eXBeGho8iEIoJF7psmeaTB1F2iLVEWRcOYLhOcMs2qP7iACm.dBoxtFjvna3Wv6b0?pwd=GmD3VtyQTdDOCWlxuJ0A7Va3RNLhIhG3)
 
 
 - **Tutorials (Jorge)**
@@ -172,6 +173,8 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 16: Examen de prueba 1](https://us06web.zoom.us/rec/share/kk4FABVItti7IaCl2QZB-zHYftyUoVstHPH3HZoLXSj3QFrX4ND4unL91dEeusvc.E_pq4B2-g0HNKOyW?pwd=ByBGVSLuOszxlGG_ggbDNN0EwVNUHkax)
   - [Tutorial 17: Mini Clase extra y Examen de prueba 2: El fin de la API](https://us06web.zoom.us/rec/share/dU8iwMLCz2KBV9TnwvlWHKT3SR6uYkTK2EIiQvwi7rDyWabftQjcB4yR8qwJiyF5._FgLQcHuf6LW70vJ?pwd=k-jiV3VL0AVEYFOBlpjVTRaBfDCy7J27)
   - [Tutorial 18: Mini Clase Extra y Examen de prueba 3: La planificación del UI](https://us06web.zoom.us/rec/share/OfcVX6GxZ4PpE_Opa0uDC9GeECMYjsZnm70dv_mDdPNVusB0emgpCPjcYHg_6VbO.zQHv2xq2ae6gsAf3?pwd=NG7AJaGLvAxEk_EBjrcl34dy1y8LdqGL)
+  - [Tutorial 19: Desarrollo UI](https://us06web.zoom.us/rec/share/dObWcwRChxblZKgVwPeskjrLISP3g1VtYxPGVaXts7fF2Kr7KKpMjdxNwD59smhY.kDoDLsV53ikympRD?pwd=ex_WxXbiiNta07LmGp-RJkLnt9mJ_vIm)
+  - [Tutorial 20: Desarrollo UI](https://us06web.zoom.us/rec/share/FjBYH5wFmwg1bAhJLOrBky7DQNcBcGye3Vgw9DtcMbZvNWXIUywlsVmWu5WQgYXH.zjZku_S2yuAcr7bB?pwd=4M0sOioBKomzgeh_XYDEy95qjpNKcykw)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>

@@ -27,7 +27,6 @@ module.exports = {
           .json({ message: "User successfully created", user: newUser });
       })
       .catch((err) => {
-        console.log(err);
         if (err.name === "ValidationError") {
           return res
             .status(400)
@@ -44,7 +43,7 @@ module.exports = {
       .then((user) => {
         if (user === null) {
           // ERROR 1: email address is not in DB
-          res.status(400).json({ message: "Invalid login attempt - 1" });
+          res.status(400).json({ message: "Login Error" });
         } else {
           // If a valid user with an email address is found, then verify password
           bcrypt
@@ -58,6 +57,7 @@ module.exports = {
                   name: user.name,
                   email: user.email,
                 };
+                console.log("userInfo: ", userInfo);
                 const userToken = jwt.sign(userInfo, process.env.JWT_SECRET);
 
                 // ii) Create cookie in HTTP response and attach signed token to it
@@ -72,18 +72,18 @@ module.exports = {
                   .json({ message: "Successfully logged in", user: userInfo });
               } else {
                 // ERROR 2: password does not match
-                res.status(400).json({ message: "Invalid login attempt - 2" });
+                res.status(400).json({ message: "Login Error" });
               }
             })
             .catch((err) => {
               // ERROR 3: bcrypt.compare() failed (problem with promise)
-              res.status(400).json({ message: "Invalid login attempt - 3" });
+              res.status(400).json({ message: "Login Error" });
             });
         }
       })
       .catch((err) => {
         // ERROR 4: findOne() failed (problem with promise)
-        res.status(400).json({ message: "Invalid login attempt - 4" });
+        res.status(400).json({ message: "Login Error" });
       });
   },
 
