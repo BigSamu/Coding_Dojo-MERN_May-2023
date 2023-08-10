@@ -152,6 +152,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 12: Full-Stack MERN](https://us06web.zoom.us/rec/share/TZ5qYMoHwp57cNGE3OSMxrM6kjkBTEvlGDcJ01qiqzpJRSGDoO-81ew4YttBJdYO.vUk_ocjQ61Sov0-Z?pwd=KmMtg74fdV9scs9RFl7AC4FRFvvsp41R)
   - [Class 13: Full-Stack MERN Part II](https://us06web.zoom.us/rec/share/8D8ZHOdhx4hrpP8SVIIlJHFw20Sj-2lk7_dn6QsOeqCAmKDj7Y9C6iaouv_rEwf2.Ewz-gkLeD-Ew_mPZ?pwd=buyha5W7sZ9z6r2j2psXQuGXR3A6lofU)
   - [Class 14: Full-Stack MERN PART III](https://us06web.zoom.us/rec/share/pHXusSXbaGDDo3K1eXBeGho8iEIoJF7psmeaTB1F2iLVEWRcOYLhOcMs2qP7iACm.dBoxtFjvna3Wv6b0?pwd=GmD3VtyQTdDOCWlxuJ0A7Va3RNLhIhG3)
+  - [Class 15: Deployment](https://us06web.zoom.us/rec/share/bHeo8ZuzvpohNnLOA8DifGMA1zzHKwfBq6O_S7hqbYaZGCySB6XfZb3KE9xYP9gG.f6IVkNxQE3AGzQh2?pwd=vWZXHxQpXImQXcSroUUmcmrIggH_uXwo)
 
 
 - **Tutorials (Jorge)**
