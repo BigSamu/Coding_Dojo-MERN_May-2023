@@ -21,14 +21,14 @@ const DeleteButton = (props) => {
   // --------------------------------------------------
 
   // i) Handlers
-  const handleOnClickDeleteButton = (e) => {
+  const handleOnClickDeleteButton = async (e) => {
     if (pet) {
       // Coming from CreatePage
       deletePetById(pet._id); // Delete From Database (API Call to backend)
       removePetFromList(pet._id); // Delete From List State (Update in Frontend)
     } else {
       // Coming from UpdatePage
-      deletePetById(petId);
+      await deletePetById(petId);
       navigate("/");
     }
   };
