@@ -1,5 +1,5 @@
 import PiratesTemplate from "../../Template/Pirates.template";
-import PirateCardComponent from "../../Components/PirateCard.component";
+import PirateCardComponent from "../../Components/PirateCard/PirateCard.component";
 import { Col } from "react-bootstrap";
 
 const PiratesView = (props) => {
