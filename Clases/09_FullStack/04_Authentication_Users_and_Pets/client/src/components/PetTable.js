@@ -14,8 +14,6 @@ const PetTable = (props) => {
   // Destructuring Props
   const { user } = props;
 
-  // Variables
-  const { usersList, setUsersList } = props;
 
   // State Hooks
   const [petsList, setPetsList] = useState();
