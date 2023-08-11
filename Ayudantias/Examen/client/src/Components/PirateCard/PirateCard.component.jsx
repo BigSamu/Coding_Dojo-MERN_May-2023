@@ -1,7 +1,16 @@
 import { Col, Row, Card, Button} from "react-bootstrap"
 import style from "./PirateCard.module.css"
+import { useNavigate } from "react-router-dom"
 
 const PirateCardComponent = (props) => {
+
+    const navigate = useNavigate();
+    const navigateToDetail = () => {
+        navigate(`/pirate/${props.id}`);
+    }
+
+    
+
     return (
         <Row className="bg-white py-2 my-3">
             <Col xs={3} >
@@ -19,8 +28,10 @@ const PirateCardComponent = (props) => {
                 </Row>
                 <Row className="my-3" >
                     <Col className="d-flex justify-content-center">
-                        <Button className="mx-5 btn-danger">View Pirate</Button>
-                        <Button className="mx-5 btn-danger">Walk the plank</Button>
+                        <Button onClick={navigateToDetail} className="mx-5 btn-danger">View Pirate</Button>
+                        <Button onClick={() => {
+                            props.deletePirate(props.id);
+                        }} className="mx-5 btn-danger">Walk the plank</Button>
                     </Col>
                 </Row>
             </Col>    
