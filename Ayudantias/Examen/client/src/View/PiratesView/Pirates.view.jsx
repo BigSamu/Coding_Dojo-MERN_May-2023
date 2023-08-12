@@ -12,9 +12,17 @@ const PiratesView = (props) => {
     const navigate = useNavigate();
 
     const getPirate = () => {
-        axios.get(`${baseURL}/pirates/`)
+        axios.get(`${baseURL}/pirates/`, {withCredentials: true})
             .then((response) => {
-                setPirates(response.data.data);
+                setPirates(response.data.data.sort((a, b) => {
+                    if (a.name > b.name) {
+                        return 1;
+                    } else if (a.name < b.name) {
+                        return -1;
+                    } else {
+                        return 0;
+                    }
+                }));
             })
             .catch((error) => {
                 console.log(error);
@@ -22,7 +30,7 @@ const PiratesView = (props) => {
     }
 
     const deletePirate =(id) => {
-        axios.delete(`${baseURL}/pirates/${id}`)
+        axios.delete(`${baseURL}/pirates/${id}`, {withCredentials: true})
             .then((response) => {
                 setPirates(
                     pirates.filter((pirate) => pirate._id != id)

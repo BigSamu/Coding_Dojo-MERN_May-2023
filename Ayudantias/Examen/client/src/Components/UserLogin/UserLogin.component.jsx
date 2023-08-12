@@ -14,11 +14,11 @@ const UserLogin = (props) => {
     const loginUser = (e) => {
         e.preventDefault();
     
-        axios.post(`${baseURL}/users/login`, data)
+        axios.post(`${baseURL}/users/login`, data, {withCredentials: true})
             .then((response) => {
                 setData({});
                 setErrors({});
-                console.log("Suxccess")
+                props.setUser(response.data.user);
                 navigate("/pirates/");
             })
             .catch((error) => {
@@ -45,7 +45,7 @@ const UserLogin = (props) => {
         </div>
         <div className="mt-3 px-2">
             <label className="form-label">Password</label>
-            <input required className="form-control" type="password"  onChange={changeHandler} value={["pasword"]} />
+            <input required className="form-control" type="password" name="password"  onChange={changeHandler} value={data["password"]} />
         </div>
         <div className="mt-3">
             <Button type="submit" className="submit-button">Login</Button>

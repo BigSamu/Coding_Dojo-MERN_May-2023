@@ -14,7 +14,7 @@ const PirateDetailView = (props) => {
     const {id} = useParams();
 
     const getPirate = () => {
-        axios.get(`${baseURL}/pirates/${id}`)
+        axios.get(`${baseURL}/pirates/${id}`, {withCredentials: true})
             .then((response) => {
                 setPirate(response.data.data[0])
             })
@@ -24,7 +24,7 @@ const PirateDetailView = (props) => {
     }
 
     const editPirate = (prop, value) => {
-        axios.patch(`${baseURL}/pirates/${id}`, {[prop]: value})
+        axios.patch(`${baseURL}/pirates/${id}`, {[prop]: value}, {withCredentials: true})
             .then((response) => {
                 setPirate({
                     ...pirate,

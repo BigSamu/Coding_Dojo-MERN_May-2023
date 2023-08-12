@@ -14,14 +14,14 @@ const PirateCreateView = (props) => {
     const changeHandler = (e) => {
         let new_data = {
             ...data,
-            [e.target.name]: e.target.value
+            [e.target.name]: e.target.type !== "checkbox" ? e.target.value : e.target.checked
         };
         setData(new_data)
     }
 
     const createPirate = (e) => {
         e.preventDefault();
-        axios.post(`${baseURL}/pirates/`, data)
+        axios.post(`${baseURL}/pirates/`, data, {withCredentials: true})
             .then((response) => {
                 alert("We have a new pirate in the ship");
                 setData({})
@@ -82,7 +82,7 @@ const PirateCreateView = (props) => {
                     <div>
                         <select className="form-select" name="position" onChange={changeHandler} value={data["position"]}>
                             {positions.map((elemt, idx) => {
-                                return <option key={idx} value={elemt}>{elemt}</option>
+                                return <option key={idx} value={elemt} selected={elemt === data["position"]}>{elemt}</option>
                             })}
                         </select>
                         <div className="form-text text-danger fw-bold">{errors["position"]}</div>

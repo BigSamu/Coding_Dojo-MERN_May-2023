@@ -13,7 +13,7 @@ const HomeView = (props) => {
                         <UserRegister/>
                     </Col>
                     <Col md={6}>
-                        <UserLogin />
+                        <UserLogin setUser={props.setUser} />
                     </Col>
                 </Row>
         </PiratesTemplate>

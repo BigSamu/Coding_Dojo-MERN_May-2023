@@ -8,7 +8,7 @@ const UserRegister = (props) => {
     const [errors, setErrors] = useState({});
 
     const checkPasswords = () => {
-        const { password, password2 } = errors;
+        const { password, password2 } = data;
         if (password === password2) {
             let tmp = { ...errors };
             delete tmp["password2"]
