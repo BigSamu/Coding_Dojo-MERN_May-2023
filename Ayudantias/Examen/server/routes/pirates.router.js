@@ -1,9 +1,10 @@
+const {authentificate} = require("../config/jwt.config");
 const { getAllPirates, getOnePirate, createPirate, deletePirate, editPirate } = require("../controllers/pirates.controller");
 
 module.exports = (app) => {
-    app.get('/pirates/', getAllPirates);
-    app.get('/pirates/:id/', getOnePirate);
-    app.post('/pirates/', createPirate);
-    app.delete('/pirates/:id/', deletePirate);
-    app.patch('/pirates/:id/', editPirate);
+    app.get('/pirates/', authentificate, getAllPirates);
+    app.get('/pirates/:id/', authentificate, getOnePirate);
+    app.post('/pirates/', authentificate, createPirate);
+    app.delete('/pirates/:id/', authentificate, deletePirate);
+    app.patch('/pirates/:id/', authentificate, editPirate);
 }
