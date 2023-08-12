@@ -21,6 +21,6 @@ const userRouter = require("./routes/users.router");
 pirateRouter(app);
 userRouter(app);
 
-app.listen(int(process.env.PORT), () => {
+app.listen(process.env.PORT, () => {
     console.log("Server started at port 8080")
 });
