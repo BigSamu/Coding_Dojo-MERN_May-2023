@@ -1,3 +1,8 @@
-const baseURL = process.env.NODE_ENV || ""
+const environments = {
+    development: "http://localhost:8080",
+    production: "",
+};
 
-export {baseURL};
+const baseURL = environments[process.env.NODE_ENV] || "";
+
+export { baseURL };
