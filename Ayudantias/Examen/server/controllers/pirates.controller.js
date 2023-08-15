@@ -24,8 +24,11 @@ module.exports = {
                 res.status(500).json({error: error})
             })
     },
-    createPirate : (req, res) => {
+    createPirate : async (req, res) => {
         let data = req.body;
+        if (data["position"] === "Captain" && await PirateModel.exists({position: "Captain"}))
+            return res.status(500).json({error: {position: "A loyal crew can't have two captains"}})
+
         PirateModel.create(data)
             .then((pirate) => {
                 res.json({data: pirate})

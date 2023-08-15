@@ -176,6 +176,8 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Tutorial 18: Mini Clase Extra y Examen de prueba 3: La planificación del UI](https://us06web.zoom.us/rec/share/OfcVX6GxZ4PpE_Opa0uDC9GeECMYjsZnm70dv_mDdPNVusB0emgpCPjcYHg_6VbO.zQHv2xq2ae6gsAf3?pwd=NG7AJaGLvAxEk_EBjrcl34dy1y8LdqGL)
   - [Tutorial 19: Desarrollo UI](https://us06web.zoom.us/rec/share/dObWcwRChxblZKgVwPeskjrLISP3g1VtYxPGVaXts7fF2Kr7KKpMjdxNwD59smhY.kDoDLsV53ikympRD?pwd=ex_WxXbiiNta07LmGp-RJkLnt9mJ_vIm)
   - [Tutorial 20: Desarrollo UI](https://us06web.zoom.us/rec/share/FjBYH5wFmwg1bAhJLOrBky7DQNcBcGye3Vgw9DtcMbZvNWXIUywlsVmWu5WQgYXH.zjZku_S2yuAcr7bB?pwd=4M0sOioBKomzgeh_XYDEy95qjpNKcykw)
+  - [Tutorial 21: Completando la UI](https://us06web.zoom.us/rec/share/Ka1F_F9l-_oE2QLtOr93Y9Dxd9Aa61CFd2RE0rKsyOvVsxfZhr-5jtNWy7ACRvXG.IHXde5SzXR-rD1e_?pwd=hXcbVDAp0BBZ1ACGJJr5j2Rv8qRUfMlh)
+  - [Tutorial 22: Auth y Deploy](https://us06web.zoom.us/rec/share/BSmA-pOv9GKKUWZu1x6yF6yykgjD21R50GO4pSUgTcDHo3v26awqwAWZp66Hxl4o.ibsLMxwFyATBZVQD?pwd=_QMmfVlxJLKJCrtL1ufCKlgp_5IAH108)
 
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
