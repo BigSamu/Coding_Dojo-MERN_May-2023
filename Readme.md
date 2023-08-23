@@ -31,7 +31,7 @@
 
 ## Course Information
 
-- **Dates WebFund Stack:** June 19th, 2023 to August 13th, 2023
+- **Dates MERN Stack:** June 19th, 2023 to August 13th, 2023
 - **Lectures ("Clases"):** Monday/Wednesday 7PM-10PM
 - **Tutorials ("Ayudantias"):** Tuesday/Thursday/Friday 6PM-10PM
 - **Course Calendar** → [here](https://docs.google.com/spreadsheets/d/15n7dWPJmquayvYmuep0eqpfnkM2_RktqMwbxLF2CzEA/edit#gid=0)
