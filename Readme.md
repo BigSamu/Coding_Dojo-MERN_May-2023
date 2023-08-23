@@ -37,7 +37,7 @@
 - **Course Calendar** → [here](https://docs.google.com/spreadsheets/d/15n7dWPJmquayvYmuep0eqpfnkM2_RktqMwbxLF2CzEA/edit#gid=0)
 - **Course Platform** → [here](https://login.codingdojo.com/login)
 - **Drive Folder with Recordings** → [here](https://drive.google.com/drive/u/1/folders/1EpeRzrncBsyOL8urh169LiUWBrkzXnqO)
-- **WebFun Belt Exams:**
+- **MERN Belt Exams:**
   - 1st Attemp: Saturday August 5th, 2023
   - 2d Attemp: Wednesday August 9th, 2023
   - 3rd Attemp: Saturday August 12th, 2023
