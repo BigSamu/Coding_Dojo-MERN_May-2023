@@ -45,7 +45,7 @@
 - **Stack Pass Requirements:**
   - Min grade of 8.0 out of 10.0 (Orange Belt or Above)
   - 90% of Core Assignments Submitted
-  - 80% Assitince to Mandatory Lectures (Tuesday/Thursday)
+  - 80% Assitince to Mandatory Lectures (Monday/Wednesday)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
