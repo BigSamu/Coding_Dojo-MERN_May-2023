@@ -95,7 +95,6 @@ Before starting, run following changes in code:
 
 #  Cloned MERN app aplication to EC2 Instance
 
--
   -  Create repositorory and upload code to it.
   -  Go to Terminal with SSH conection to EC2 instance and clone repo project (`git clone <url-to-github-repo-project> MERN_Deployment`)
   - Create enviromental variable in server running following commands
