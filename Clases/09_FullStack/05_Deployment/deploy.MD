@@ -4,6 +4,7 @@
 
 Before starting, run following changes in code:
   1. For client side (inside `client` folder):
+   
     - Create `config.js` file under `src` folder for creating a baseUrl variable and add the code below:
       ```js
         const environments = {
@@ -204,5 +205,3 @@ Before starting, run following changes in code:
   pm2 logs
   ```
   - If logs appearing, then backend is running using PM2. Now you are ready to exit SSH session. The website is fully deployed
-
-
