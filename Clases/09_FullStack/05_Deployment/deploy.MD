@@ -36,7 +36,7 @@ Before starting, run following changes in code:
       PORT = 8080
       ```
     - In server.js change the port definition from `const port = 8000;` to `const port = process.env.PORT;`
-      > NOTE: For the porpouse of the deployment we will use port 8080, instead of 8000 in the server side.
+      > NOTE: For the purpose of the deployment we will use port 8080, instead of 8000 in the server side.
 
   - Check that with all these changes your MERN application is still working
 
