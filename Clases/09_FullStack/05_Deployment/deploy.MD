@@ -3,43 +3,42 @@
 ## Changes in Code
 
 Before starting, run following changes in code:
-  1. For client side (inside `client` folder):
-   
-    - Create `config.js` file under `src` folder for creating a baseUrl variable and add the code below:
-      ```js
-        const environments = {
-          development: "http://localhost:8080",
-          production: "",
-        };
+  - For client side (inside `client` folder):
+     - Create `config.js` file under `src` folder for creating a baseUrl variable and add the code below:
+       ```js
+         const environments = {
+           development: "http://localhost:8080",
+           production: "",
+         };
 
-        const baseUrl = environments[process.env.NODE_ENV] || "";
+         const baseUrl = environments[process.env.NODE_ENV] || "";
 
-        console.log(process.env.NODE_ENV)
-        console.log(baseUrl)
+         console.log(process.env.NODE_ENV)
+         console.log(baseUrl)
 
-        export { baseUrl };
-      ```
-    - For all components calling the endpoint to `http://localhbost:8080` change them using the variable `baseUrl`. In other words, change the url enpoints in the API calls such `http://localhost:8080/api/pets` or `http://localhost:8080/api/pets/${petId}` to `${baseUrl}/api/pets` or `${baseUrl}/api/pets/${petId}` in all components. Remember that variable `baseUrl` need to be imported in the component before using it (```import {baseUrl} from ../config.js```).
+         export { baseUrl };
+       ```
+     - For all components calling the endpoint to `http://localhbost:8080` change them using the variable `baseUrl`. In other words, change the url enpoints in the API calls such `http://localhost:8080/api/pets` or `http://localhost:8080/api/pets/${petId}` to `${baseUrl}/api/pets` or `${baseUrl}/api/pets/${petId}` in all components. Remember that variable `baseUrl` need to be imported in the component before using it (```import {baseUrl} from ../config.js```).
 
-    - Prepare `build` folder running the following command: `npm run build` (Remeber to be located inside `client` folder)
-    - Go to .gitignore file in `client` and comment line that contains `/build` (line 12)
+     - Prepare `build` folder running the following command: `npm run build` (Remeber to be located inside `client` folder)
+     - Go to .gitignore file in `client` and comment line that contains `/build` (line 12)
 
-  2. Server Side (inside `server` folder):
+  - Server Side (inside `server` folder):
     - Generate a .gitignore file and add the following:
-      ```sh
-      node_modules
-      .DS_Store # This line only for Mac users
-      .env
-      ```
+     ```sh
+     node_modules
+     .DS_Store # This line only for Mac users
+     .env
+     ```
     - Generate a file `.env` using the command `touch .env` (Remeber to be located inside `server` folder). Inside that folder add the following enviromental variables:
       ```
       JWT_SECRET = <your_JWT_key>
       PORT = 8080
       ```
     - In server.js change the port definition from `const port = 8000;` to `const port = process.env.PORT;`
-    > NOTE: For the porpouse of the deployment we will use port 8080, instead of 8000 in the server side.
+      > NOTE: For the porpouse of the deployment we will use port 8080, instead of 8000 in the server side.
 
-  3. Check that with all these changes your MERN application is still working
+  - Check that with all these changes your MERN application is still working
 
 ## Create EC2 Instance in AWS
 
