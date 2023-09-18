@@ -25,11 +25,11 @@ Before starting, run following changes in code:
 
   - Server Side (inside `server` folder):
     - Generate a .gitignore file and add the following:
-     ```sh
-     node_modules
-     .DS_Store # This line only for Mac users
-     .env
-     ```
+      ```sh
+      node_modules
+      .DS_Store # This line only for Mac users
+      .env
+      ```
     - Generate a file `.env` using the command `touch .env` (Remeber to be located inside `server` folder). Inside that folder add the following enviromental variables:
       ```
       JWT_SECRET = <your_JWT_key>
